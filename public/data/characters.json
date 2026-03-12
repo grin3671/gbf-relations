@@ -1,0 +1,1352 @@
+[
+  {
+    "id": 3990219000,
+    "label": "Gran",
+    "group": "d",
+    "image": "./images/m/3990219000_01.jpg",
+    "relations": [
+      { "to": 3030005000, "type": "crew", "dashes": true, "chapter": "1.0" },
+      { "to": 3030008000, "type": "crew", "dashes": true, "chapter": "1.2" },
+      { "to": 3991612000 }
+    ]
+  },
+  {
+    "id": 3050000000,
+    "label": "Lyria",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040643000_01.jpg",
+    "relations": [
+      { "to": 3990219000, "type": "action", "title": "Life Link", "dashes": true, "chapter": "1.0" }
+    ]
+  },
+  {
+    "id": 3050001000,
+    "label": "Vyrn",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3050001000_01.jpg",
+    "relations": [
+      { "to": 3990219000, "chapter": "1.0" },
+      { "to": 3993997000 }
+    ]
+  },
+  {
+    "id": 3030005000,
+    "label": "Katalina",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040054000_01.jpg",
+    "relations": [
+      { "to": 3050000000, "type": "action", "title": "Save", "chapter": "1.0" },
+      { "to": 3040043000 },
+      { "to": 3020006000, "type": "former-subordinate" }
+    ]
+  },
+  {
+    "id": 3030006000,
+    "label": "Io",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040065000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3030007000,
+    "label": "Eugen",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040077000_01.jpg",
+    "relations": [
+      { "to": 3990002000, "type": "parent" },
+      { "to": 2040028000, "dashes": true }
+    ]
+  },
+  {
+    "id": 3030008000,
+    "label": "Rackam",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040059000_01.jpg",
+    "relations": [
+      { "to": 2040020000, "dashes": true }
+    ]
+  },
+  {
+    "id": 3030010000,
+    "label": "Rosetta",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040068000_01.jpg",
+    "relations": [
+      { "to": 3030006000, "dashes": true }
+    ]
+  },
+  {
+    "id": 3990000000,
+    "label": "Sturm",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040115000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3990001000,
+    "label": "Drang",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040119000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3993997000,
+    "label": "Gallanth",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3993997000_01.jpg",
+    "relations": [
+      { "to": 3990219000, "type": "parent" },
+      { "to": 3994001000, "type": "family" },
+      { "to": 3040035000, "type": "action", "title": "Save" },
+      { "to": 3040641000, "type": "crew" },
+      { "to": 3030010000, "type": "crew" },
+      { "to": 3992203000, "type": "crew" },
+      { "to": 3030039000, "type": "crew" },
+      { "to": 3050001000 }
+    ]
+  },
+  {
+    "id": 3994001000,
+    "label": "Rein",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994001000_01.jpg",
+    "relations": [
+      { "to": 3990219000, "type": "parent" },
+      { "to": 3993997000, "type": "family" },
+      { "to": 3991123000, "type": "family" }
+    ]
+  },
+  {
+    "id": 3991123000,
+    "label": "Partita",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991123000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3992591000,
+    "label": "Omnipotent",
+    "group": "d",
+    "relations": [
+      { "to": 2040003000, "type": "creator" },
+      { "to": 3994086000, "type": "creator" },
+      { "to": 3991292000, "type": "creator" },
+      { "to": 3040251000, "type": "creator" },
+      { "to": 3994000000, "type": "creator" }
+    ]
+  },
+  {
+    "id": 3994086000,
+    "label": "Astralia\n[Astral God]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994086000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 2040003000,
+    "label": "Bahamut\n[Sky God]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/summon/m/2040003000.jpg",
+    "relations": [
+      { "to": 3994001000, "type": "action", "title": "Misson" },
+      { "to": 3050001000, "type": "creator" },
+      { "to": 3994092000, "type": "creator" }
+    ]
+  },
+  {
+    "id": 3040043000,
+    "label": "Vira",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040043000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3991405000,
+    "label": "Ares",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991405000_01.jpg",
+    "relations": [
+      { "to": 3030005000, "type": "descendant" }
+    ]
+  },
+  {
+    "id": 3020006000,
+    "label": "Farrah",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3030037000_01.jpg",
+    "faction": "Imperial Army",
+    "relations": [
+      { "to": 3030038000 }
+    ]
+  },
+  {
+    "id": 3030038000,
+    "label": "Juri",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040509000_01.jpg",
+    "faction": "Imperial Army",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3990164000,
+    "label": "Galston\n[Imperial Army Lieutenant]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990164000_01.jpg",
+    "faction": "Imperial Army",
+    "relations": [
+      { "to": 3030038000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3990010000,
+    "label": "Pommern\n[Imperial Army Captain]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990010000_01.jpg",
+    "faction": "Imperial Army",
+    "relations": [
+      { "to": 3990164000, "type": "subordinate" },
+      { "to": 3030005000, "type": "former-subordinate", "chapter": "1.0" }
+    ]
+  },
+  {
+    "id": 3990017000,
+    "label": "Furias\n[Imperial Army Major General]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990017000_01.jpg",
+    "faction": "Imperial Army",
+    "relations": [
+      { "to": 3990010000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3990251000,
+    "label": "Gandharva\n[Imperial Army Lieutenant General]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990251000_01.jpg",
+    "faction": "Imperial Army",
+    "relations": [
+      { "to": 3990017000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3990353000,
+    "label": "Adam\n[Imperial Army General]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040432000_01.jpg",
+    "faction": "Imperial Army",
+    "relations": [
+      { "to": 3990251000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3990153000,
+    "label": "Freesia\n[Imperial Prime Minister]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990153000_01.jpg",
+    "faction": "Erste Empire",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3990182000,
+    "label": "Loki\n[Emperor of Erste]",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990182000_01.jpg",
+    "faction": "Erste Empire",
+    "relations": [
+      { "to": 3994088000, "type": "family" },
+      { "to": 3990179000 }
+    ]
+  },
+  {
+    "id": 3994088000,
+    "label": "Byleistr\n[Former Emperor of Erste]",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994088000_01.jpg",
+    "faction": "Erste Empire",
+    "relations": [
+      { "to": 3990153000, "type": "subordinate" },
+      { "to": 3990353000, "type": "subordinate" },
+      { "to": 3990510000, "type": "parent" },
+      { "to": 3991120000, "type": "co-worker", "event": "Anniv. 12" },
+      { "to": 3994090000, "type": "co-worker", "event": "Anniv. 12" }
+    ]
+  },
+  {
+    "id": 3990510000,
+    "label": "Orchis\n[Princess of Erste]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990510000_01.jpg",
+    "faction": "Erste Empire",
+    "relations": [
+      { "to": 3990002000 }
+    ]
+  },
+  {
+    "id": 3990002000,
+    "label": "Apollonia\n[Black Knight]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040082000_01.jpg",
+    "faction": "Erste Empire",
+    "relations": [
+      { "to": 3990000000, "type": "subordinate", "chapter": "1.3" },
+      { "to": 3990001000, "type": "subordinate", "chapter": "1.3" },
+      { "to": 3990003000 }
+    ]
+  },
+  {
+    "id": 3994090000,
+    "label": "Lilith",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994310000_01.jpg",
+    "relations": [
+      { "to": 3050000000, "type": "creator" },
+      { "to": 3994305000, "type": "co-worker", "event": "Anniv. 12" }
+    ]
+  },
+  {
+    "id": 3991292000,
+    "label": "Helel ben Sahar",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991292000_01.jpg",
+    "relations": [
+      { "to": 3040106000, "type": "same-person" },
+      { "to": 3991054000, "type": "clone" }
+    ]
+  },
+  {
+    "id": 3990416000,
+    "label": "Tau'luk\n[True King]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990416000_01.jpg",
+    "relations": [
+      { "to": 3991123000, "type": "action", "title": "Kidnapping" },
+      { "to": 3993150000, "type": "family" },
+      { "to": 3990419000, "type": "parent" },
+      { "to": 3990616000, "type": "parent" },
+      { "to": 3040641000, "type": "subordinate" },
+      { "to": 3990018000, "type": "subordinate" },
+      { "to": 3991229000, "type": "subordinate" },
+      { "to": 3992201000, "type": "subordinate" },
+      { "to": 3992850000, "type": "subordinate" },
+      { "to": 3990670000, "type": "subordinate" },
+      { "to": 3992202000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3993150000,
+    "label": "Marinella",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3993150000_01.jpg",
+    "relations": [
+      { "to": 3990416000, "type": "family" },
+      { "to": 3990419000, "type": "parent" },
+      { "to": 3990616000, "type": "parent" }
+    ]
+  },
+  {
+    "id": 3990419000,
+    "label": "Alliah\n[Golden Knight]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040297000_01.jpg",
+    "relations": [
+      { "to": 3990477000, "type": "subordinate" },
+      { "to": 3990478000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3990616000,
+    "label": "Pholia",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040181000_01.jpg",
+    "relations": [
+      { "to": 3990588000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3040641000,
+    "label": "Walfrid\n[Blue Knight]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040641000_01.jpg",
+    "relations": [
+      { "to": 3990251000, "type": "former-subordinate" },
+      { "to": 3040186000, "type": "subordinate" },
+      { "to": 3990157000, "type": "parent" }
+    ]
+  },
+  {
+    "id": 3992201000,
+    "label": "Caesar\n[White Knight]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040632000_01.jpg",
+    "relations": [
+      { "to": 3040631000, "type": "subordinate" },
+      { "to": 3994219000 }
+    ]
+  },
+  {
+    "id": 3990018000,
+    "label": "Baragona\n[Scarlet Knight]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990018000_01.jpg",
+    "relations": [
+      { "to": 3990558000, "type": "distant-relatives" },
+      { "to": 3991094000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3991229000,
+    "label": "Zarydora\n[Violet Knight]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991229000_01.jpg",
+    "relations": [
+      { "to": 3040631000, "type": "parent" }
+    ]
+  },
+  {
+    "id": 3992850000,
+    "label": "Octavia\n[Green Knight]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992850000_01.jpg",
+    "relations": [
+      { "to": 3990416000, "type": "descendant", "event": "Anniv. 12" }
+    ]
+  },
+  {
+    "id": 3992203000,
+    "label": "Repti",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992203000_01.jpg",
+    "relations": [
+      { "to": 3993450000, "type": "creator" },
+      { "to": 3994094000, "type": "same-person" },
+      { "to": 3992210000, "type": "creator", "dashes": true }
+    ]
+  },
+  {
+    "id": 3990157000,
+    "label": "Lecia",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040101000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040186000,
+    "label": "Monika",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040186000_01.jpg",
+    "relations": [
+      { "to": 3990157000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3040035000,
+    "label": "Seox",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040035000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      { "to": 3991658000 }
+    ]
+  },
+  {
+    "id": 3040036000,
+    "label": "Seofon",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040036000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      { "to": 3040035000, "type": "subordinate" },
+      { "to": 3040030000, "type": "subordinate" },
+      { "to": 3040031000, "type": "subordinate" },
+      { "to": 3040032000, "type": "subordinate" },
+      { "to": 3040033000, "type": "subordinate" },
+      { "to": 3040034000, "type": "subordinate" },
+      { "to": 3040037000, "type": "subordinate" },
+      { "to": 3040038000, "type": "subordinate" },
+      { "to": 3040039000, "type": "subordinate" },
+      { "to": 3993445000, "type": "action", "title": "Save Kingdom" }
+    ]
+  },
+  {
+    "id": 3040030000,
+    "label": "Anre",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040030000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3040031000,
+    "label": "Tweyen",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040031000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      { "to": 3040049000 }
+    ]
+  },
+  {
+    "id": 3040032000,
+    "label": "Threo",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040032000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3040033000,
+    "label": "Feower",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040033000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      { "to": 3040039000, "type": "family" }
+    ]
+  },
+  {
+    "id": 3040034000,
+    "label": "Fif",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040034000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3040037000,
+    "label": "Eahta",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040037000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      { "to": 3040063000 }
+    ]
+  },
+  {
+    "id": 3040038000,
+    "label": "Niyon",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040038000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3040039000,
+    "label": "Tien",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040039000_01.jpg",
+    "faction": "Eternals",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3040049000,
+    "label": "Silva",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040049000_01.jpg",
+    "relations": [
+      { "to": 3020032000 },
+      { "to": 3030155000 }
+    ]
+  },
+  {
+    "id": 3020032000,
+    "label": "Camieux",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3020032000_01.jpg",
+    "relations": [
+      { "to": 3030155000 }
+    ]
+  },
+  {
+    "id": 3030155000,
+    "label": "Cucouroux",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040159000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3040063000,
+    "label": "Narmaya",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040063000_01.jpg",
+    "relations": [
+      { "to": 3040359000 }
+    ]
+  },
+  {
+    "id": 3040359000,
+    "label": "Azusa",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040359000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3030032000,
+    "label": "Ferry",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040073000_01.jpg",
+    "relations": [
+      { "to": 3990001000, "type": "distant-relatives" }
+    ]
+  },
+  {
+    "id": 3040631000,
+    "label": "Darydara",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040631000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3994219000,
+    "label": "Notus",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994219000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3040106000,
+    "label": "Lucio",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040106000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3040251000,
+    "label": "Helel ben Shalem",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040251000_01.jpg",
+    "relations": [
+      { "to": 3991053000, "type": "clone" }
+    ]
+  },
+  {
+    "id": 2040020000,
+    "label": "Tiamat",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040152000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 2040028000,
+    "label": "Leviathan",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/summon/m/2040028000.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3030039000,
+    "label": "Noa",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040255000_01.jpg",
+    "relations": [
+      { "to": 3030008000 }
+    ]
+  },
+  {
+    "id": 3991119000,
+    "label": "Shitori",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040244000_01.jpg",
+    "relations": [
+      { "to": 3992650000, "type": "same-person" }
+    ]
+  },
+  {
+    "id": 3991120000,
+    "label": "Mikaboshi",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991120000_01.jpg",
+    "relations": [
+      { "to": 3990018000, "arrows": "to" }
+    ]
+  },
+  {
+    "id": 3992650000,
+    "label": "Irotis",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992650000_01.jpg",
+    "relations": [
+      { "to": 3991767000, "type": "subordinate" },
+      { "to": 3992289000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3993450000,
+    "label": "Magus",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040517000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3991658000,
+    "label": "Nehan",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040341000_01.jpg",
+    "relations": [
+      { "to": 3991669000 }
+    ]
+  },
+  {
+    "id": 3990179000,
+    "label": "Fenrir",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/summon/m/2040049000.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3991669000,
+    "label": "Mugen",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040267000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3994094000,
+    "label": "Demiurge",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994094000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3994305000,
+    "label": "Chiyou",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994305000_01.jpg",
+    "relations": [
+      { "to": 3992850000, "arrows": "to", "event": "Anniv. 12" },
+      { "to": 3994330000, "type": "co-worker", "event": "Anniv. 12" }
+    ]
+  },
+  {
+    "id": 3990003000,
+    "label": "Orchis",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040111000_01.jpg",
+    "relations": [
+      { "to": 3990530000 }
+    ]
+  },
+  {
+    "id": 3990007000,
+    "label": "Tzaka the Great",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990007000_01.jpg",
+    "relations": [
+      { "to": 3030006000, "type": "teacher" },
+      { "to": 3990006000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3990006000,
+    "label": "\"Christophe\"",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990006000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3990530000,
+    "label": "Lloyd",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990530000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3990477000,
+    "label": "Hailak",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990477000_01.jpg",
+    "relations": [
+      { "to": 3992204000, "title": "Classmates", "chapter": "1.145" }
+    ]
+  },
+  {
+    "id": 3990478000,
+    "label": "Anissida",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990478000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3990558000,
+    "label": "Hal",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990558000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3990585000,
+    "label": "Leona",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040285000_01.jpg",
+    "relations": [
+      { "to": 3991094000, "type": "family" }
+    ]
+  },
+  {
+    "id": 3990588000,
+    "label": "Cain",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040171000_01.jpg",
+    "relations": [
+      { "to": 3990585000, "type": "subordinate" },
+      { "to": 3991094000, "type": "family" },
+      { "to": 3990589000 }
+    ]
+  },
+  {
+    "id": 3990589000,
+    "label": "Reinhardtzar",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040274000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3991094000,
+    "label": "Abel",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991094000_01.jpg",
+    "relations": [
+      { "to": 3990558000, "arrows": "to", "title": "Guardian" }
+    ]
+  },
+  {
+    "id": 3991612000,
+    "label": "Aaron",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991612000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3994301000,
+    "label": "Proculus",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994301000_01.jpg",
+    "relations": [
+      { "to": 3992201000, "type": "distant-relatives", "event": "Anniv. 12" }
+    ]
+  },
+  {
+    "id": 3993445000,
+    "label": "Ceodric",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3993445000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3993446000,
+    "label": "Sabrina",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040514000_01.jpg",
+    "relations": [
+      { "to": 3993445000 }
+    ]
+  },
+  {
+    "id": 3993447000,
+    "label": "Abramelin",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3993447000_01.jpg",
+    "relations": [
+      { "to": 3993467000, "type": "family" },
+      { "to": 3993460000 },
+      { "to": 3992591000, "type": "action", "title": "Kill" }
+    ]
+  },
+  {
+    "id": 3993452000,
+    "label": "Phoenix",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3993452000_01.jpg",
+    "relations": [
+      { "to": 3992591000 },
+      { "to": 3993460000, "type": "creator" },
+      { "to": 3993447000, "type": "action", "title": "Immortality" },
+      { "to": 3993453000, "type": "same-person" }
+    ]
+  },
+  {
+    "id": 3993453000,
+    "label": "Hauhet",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040597000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3993460000,
+    "label": "Fenie",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040519000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3993467000,
+    "label": "Farhana",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3993467000_01.jpg",
+    "relations": [
+      { "to": 3993447000, "type": "family" },
+      { "to": 3993460000 },
+      { "to": 3993446000, "type": "same-person", "title": "Reincarnation" }
+    ]
+  },
+  {
+    "id": 3991054000,
+    "label": "Lucilius",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991054000_01.jpg",
+    "relations": [
+      { "to": 3990190000, "type": "creator" },
+      { "to": 3991053000 },
+      { "to": 3993479000, "type": "creator" },
+      { "to": 3991047000, "type": "creator" }
+    ]
+  },
+  {
+    "id": 3990190000,
+    "label": "Lucifer",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/summon/m/2040056000.jpg",
+    "relations": [
+      { "to": 3990618000, "type": "creator" },
+      { "to": 3993479000, "type": "creator" },
+      { "to": 3990612000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3990618000,
+    "label": "Sandalphon",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040153000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3991053000,
+    "label": "Beelzebub\n[Hooded Figure]",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991053000_01.jpg",
+    "relations": [
+      { "to": 3990190000, "type": "action", "title": "Kill" }
+    ]
+  },
+  {
+    "id": 3993479000,
+    "label": "Raziel",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040516000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3990612000,
+    "label": "Michael",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040440000_01.jpg",
+    "relations": [
+      { "to": 3990613000, "type": "subordinate" },
+      { "to": 3990614000, "type": "subordinate" },
+      { "to": 3990615000, "type": "subordinate" },
+      { "to": 3040196000, "type": "teacher" },
+      { "to": 3040443000, "type": "subordinate" },
+      { "to": 3991351000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3990613000,
+    "label": "Gabriel",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040492000_01.jpg",
+    "relations": [
+      { "to": 3040190000, "type": "teacher" }
+    ]
+  },
+  {
+    "id": 3990614000,
+    "label": "Uriel",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040501000_01.jpg",
+    "relations": [
+      { "to": 3040158000, "type": "teacher" }
+    ]
+  },
+  {
+    "id": 3990615000,
+    "label": "Raphael",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040568000_01.jpg",
+    "relations": [
+      { "to": 3040212000, "type": "teacher" }
+    ]
+  },
+  {
+    "id": 3040196000,
+    "label": "Shiva",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040196000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040190000,
+    "label": "Europa",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040190000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040158000,
+    "label": "Alexiel",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040158000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040212000,
+    "label": "Grimnir",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040212000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 2040080000,
+    "label": "Zeus",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/summon/m/2040080000.jpg",
+    "relations": [
+      { "to": 3040190000, "type": "creator" }
+    ]
+  },
+  {
+    "id": 2040029000,
+    "label": "Odin",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/summon/m/2040029000.jpg",
+    "relations": [
+      { "to": 3040212000, "type": "creator" },
+      { "to": 3040596000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3040596000,
+    "label": "Skuld",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040596000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3991047000,
+    "label": "Belial",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991047000_01.jpg",
+    "relations": [
+      { "to": 3991340000, "type": "subordinate" },
+      { "to": 3994071000, "type": "subordinate" }
+    ]
+  },
+  {
+    "id": 3991340000,
+    "label": "Sariel",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040611000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3994071000,
+    "label": "Peisma",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994071000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3994000000,
+    "label": "Rel Estalucia",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994000000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040443000,
+    "label": "Halluel and Malluel",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/summon/m/2040275000.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3991351000,
+    "label": "Azrael and Israfel",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991351000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3990670000,
+    "label": "Gilbert",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990670000_01.jpg",
+    "relations": [
+      { "to": 3991094000, "type": "action", "title": "Kill" }
+    ]
+  },
+  {
+    "id": 3990698000,
+    "label": "Dolza\n[King of Rhem]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990698000_01.jpg",
+    "relations": [
+      { "to": 3990670000, "type": "subordinate", "title": "Fake" },
+      { "to": 3990376000, "type": "family" }
+    ]
+  },
+  {
+    "id": 3990376000,
+    "label": "Guzaletha",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990376000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3992764000,
+    "label": "Orologia",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992764000_01.jpg",
+    "relations": [
+      { "to": 3990219000 },
+      { "to": 3040449000 }
+    ]
+  },
+  {
+    "id": 3040449000,
+    "label": "Lu Woh",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040449000_01.jpg",
+    "relations": [
+      { "to": 3040376000 },
+      { "to": 3040419000 },
+      { "to": 3040381000 },
+      { "to": 3040405000 },
+      { "to": 3040378000 }
+    ]
+  },
+  {
+    "id": 3040376000,
+    "label": "Fediel",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040376000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040419000,
+    "label": "Wamdus",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040419000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040381000,
+    "label": "Wilnas",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040381000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040405000,
+    "label": "Galleon",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040405000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040378000,
+    "label": "Ewiyar",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040378000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3994092000,
+    "label": "Versusia Genesis",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994092000_01.jpg",
+    "relations": [
+       { "to": 3994001000, "arrows": "to", "title": "Vessel" }
+    ]
+  },
+  {
+    "id": 3991767000,
+    "label": "Raclitus",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991767000_01.jpg",
+    "relations": [
+      { "to": 3991765000 }
+    ]
+  },
+  {
+    "id": 3991765000,
+    "label": "Zarazustra",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991765000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3992289000,
+    "label": "Selka",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992289000_01.jpg",
+    "relations": [
+      { "to": 3992290000, "type": "family" }
+    ]
+  },
+  {
+    "id": 3992290000,
+    "label": "Lejos",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992290000_01.jpg",
+    "relations": [
+      { "to": 3992210000, "dashes": true }
+    ]
+  },
+  {
+    "id": 3992202000,
+    "label": "Amar",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992202000_01.jpg",
+    "relations": [
+      { "to": 3992289000, "type": "parent" },
+      { "to": 3992290000, "type": "parent" }
+    ]
+  },
+  {
+    "id": 3992210000,
+    "label": "Hive God Anima Animus",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992210000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3992204000,
+    "label": "Alba",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992204000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3994303000,
+    "label": "Onoskelis",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994303000_01.jpg",
+    "relations": [
+      { "to": 3994330000, "type": "co-worker", "event": "Anniv. 12" },
+      { "to": 3994090000, "event": "Anniv. 12" }
+    ]
+  },
+  {
+    "id": 3994304000,
+    "label": "Ahhazu",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994304000_01.jpg",
+    "relations": [
+      { "to": 3994303000, "type": "co-worker", "event": "Anniv. 12" },
+      { "to": 3991120000, "type": "co-worker", "event": "Anniv. 12" }
+    ]
+  },
+  {
+    "id": 3994330000,
+    "label": "Apep",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994330000_01.jpg",
+    "relations": [
+      { "to": 3994301000, "arrows": "to", "event": "Anniv. 12" }
+    ]
+  },
+  {
+    "id": 3994311000,
+    "label": "Astaroth",
+    "group": "a",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994311000_01.jpg",
+    "relations": [
+      { "to": 3993450000, "type": "subordinate" },
+      { "to": 3991053000 }
+    ]
+  }
+]

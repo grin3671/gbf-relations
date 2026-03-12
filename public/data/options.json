@@ -1,0 +1,42 @@
+{
+  "physics": {
+    "enabled": true,
+    "stabilization": true
+  },
+  "layout": {
+    "randomSeed": 1,
+    "improvedLayout": true
+  },
+  "interaction": {
+    "hover": true,
+    "keyboard": true
+  },
+  "edges": {
+    "smooth": true,
+    "color": {
+      "inherit": "both"
+    }
+  },
+  "groups": {
+    "d": {
+      "shape": "image",
+      "image": "./images/m/1999999999.jpg"
+    },
+    "a": {
+      "shape": "image",
+      "image": "./images/m/1999999999.jpg",
+      "font": {
+        "strokeWidth": 2,
+        "strokeColor": "#32a6a8"
+      }
+    },
+    "p": {
+      "shape": "image",
+      "image": "./images/m/1999999999.jpg",
+      "font": {
+        "strokeWidth": 2,
+        "strokeColor": "#9f55c2"
+      }
+    }
+  }
+}

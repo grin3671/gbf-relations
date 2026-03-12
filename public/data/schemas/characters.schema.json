@@ -1,0 +1,99 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "label",
+      "group",
+      "relations"
+    ],
+    "properties": {
+      "id": {
+        "type": "integer",
+        "description": "ID of character"
+      },
+      "label": {
+        "type": "string",
+        "description": "Character name"
+      },
+      "group": {
+        "type": "string",
+        "description": "Character group (e.g., d (default), a (astral), p (primal beast))",
+        "pattern": "^[a-z]$",
+        "maxLength": 1,
+        "enum": [
+          "d",
+          "p",
+          "a"
+        ]
+      },
+      "image": {
+        "type": "string",
+        "description": "Path to character image",
+        "pattern": "^*\\.jpg$"
+      },
+      "faction": {
+        "type": "string",
+        "description": "Storyline group"
+      },
+      "relations": {
+        "type": "array",
+        "description": "List of relationships with other characters",
+        "items": {
+          "type": "object",
+          "required": ["to"],
+          "properties": {
+            "to": {
+              "type": "integer",
+              "description": "ID of related character"
+            },
+            "type": {
+              "type": "string",
+              "description": "Relationship type (append predetermined styles to lines)",
+              "enum": [
+                "crew",
+                "action",
+                "family",
+                "parent",
+                "descendant",
+                "distant-relatives",
+                "co-worker",
+                "teacher",
+                "subordinate",
+                "former-subordinate",
+                "creator",
+                "same-person",
+                "clone"
+              ]
+            },
+            "title": {
+              "type": "string",
+              "description": "Relationship hint (e.g., Life Link)"
+            },
+            "arrows": {
+              "type": "string",
+              "description": "Relationship direction ('to' will draw an arrow near related character, 'from' - near current character)",
+              "enum": ["to","from","from,to"]
+            },
+            "dashes": {
+              "type": "boolean",
+              "description": "Flag for special new relationship after game started (dashed line)"
+            },
+            "chapter": {
+              "type": "string",
+              "description": "Arc and Chapter number where the relationship appears (e.g., 1.36)"
+            },
+            "event": {
+              "type": "string",
+              "description": "Short name of the related event where this relation was revealed"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

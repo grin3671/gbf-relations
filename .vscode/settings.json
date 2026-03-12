@@ -1,0 +1,14 @@
+{
+  "liveServer.settings.file": "./index.html",
+  "liveServer.settings.root": "/public",
+  "json.schemas": [
+    {
+      "fileMatch": ["/public/data/characters.json"],
+      "url": "./public/data/schemas/characters.schema.json"
+    },
+    {
+      "fileMatch": ["/public/data/details.json"],
+      "url": "./public/data/schemas/details.schema.json"
+    },
+  ]
+}

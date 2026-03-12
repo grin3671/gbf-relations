@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBF Character Relations</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="graph-container"></div>
+
+        <div class="timeline" id="timeline">
+            <div class="timeline-header">
+                <button class="timeline-btn" id="toggleRelations"><i class="bi bi-bezier"></i></button>
+            </div>
+            <div class="timeline-content"></div>
+        </div>
+
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-controls">
+                <button class="control center-btn" id="findNode"><i class="bi bi-pin-map"></i></button>
+                <a class="control-link gbf-link" rel="nofollow">gbf.wiki</a>
+                <button class="control close-btn" id="closeSidebar"><i class="bi bi-x-lg"></i></button>
+            </div>
+            <div class="sidebar-content" id="sidebarContent"></div>
+        </div>
+
+        <footer>
+            <p><a href="https://granbluefantasy.com/en/" rel="nofollow">Granblue Fantasy</a> content and materials are trademarks and copyrights of <a href="https://www.cygames.co.jp/en/" rel="nofollow">Cygames, Inc.</a> or its licensors. All rights reserved.</p>
+        </footer>
+    </div>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+name: JSON Schema Validation
+
+on:
+  pull_request:
+    # Activated only when changes are made to your /data/ folder
+    paths:
+      - 'data/**/*.json'
+  workflow_dispatch: # Manual start option
+
+permissions:
+  contents: read
+  # Add this if you want the bot to write comments in PR
+  pull-requests: write
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate JSON files
+        uses: GrantBirki/json-yaml-validate@v3.2.1
+        with:
+          # --- Key settings ---
+          # Base directory for searching files
+          base_dir: './public/data'
+          # Path to the folder with your schemas
+          json_schema: './public/data/schemas/'
+          # ---------------------------------
+          # Optional: comment in PR with results
+          comment: 'true'
+          # Optional: exclude schema files themselves from checking
+          json_exclude_regex: '.*\.schema\.json$'

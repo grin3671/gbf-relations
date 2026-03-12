@@ -1,0 +1,62 @@
+[
+  {
+    "id": 3050000000,
+    "name": "Lyria",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3050000000.png",
+    "desc": "Although she remembers nothing before the Erste Empire took her, this preternaturally powerful girl harbors the potential to alter the fate of the sky. Her demonstrated capabilities include commanding primal beasts and linking her life force to the life force of another.",
+    "images": [
+
+    ],
+    "links": [
+      "https://gbf.wiki/Lyria_(NPC)"
+    ],
+    "cv": "Nao Touyama",
+    "cv-links": [
+      "https://myanimelist.net/people/11184/Nao_Touyama"
+    ]
+  },
+  {
+    "id": 3993467000,
+    "name": "Farhana",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993467000_serious.png",
+    "desc": "Belongs to an ancient type of people that lived during the time of the creation myth. Wife of the hero Abramelin, Farhana was a skilled swordswoman who was also efficient with the single-handed gun and had become a legend as an explorer. She raised Fenie—a fragment of the Phoenix—together with her husband and lived happily with them until the family found themselves pulled into the war against god. Realizing that she was the reason Abramelin refused to drink the blood of the Phoenix, Farhana decided to give up her own life during the battle, looking forward to a promised reincarnation and reuniting with Abramelin in 6,000 years. Though Farhana was a brave and clever fighter, she was also reckless. In accordance with the Phoenix's prediction, she was reincarnated into the present time as Sabrina in the Kingdom of Radlith.",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993467000_up.png", "label": "face" }
+    ],
+    "links": [
+      "https://gbf.wiki/Farhana_(NPC)"
+    ],
+    "cv": "Aimi",
+    "cv-links": [
+      "https://myanimelist.net/people/14519/Aimi"
+    ]
+  },
+  {
+    "id": 3994303000,
+    "name": "Onoskelis",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3994303000.png",
+    "desc": "An Astral who once oversaw the Oarlyegrande Skydom. Thrust into the position through a series of unlikely turns, she failed to conquer the Istavion Kingdom during the invasion, leaving her authority in name only. Possessing the pride of an Astral without the ability to match it, she craves recognition from others. She and Lilit had known each other before coming to the Sky Realm, theirs being the one relationship she could consider a friendship.",
+    "images": [
+    ],
+    "links": [
+    ],
+    "cv": "Kanna Nakamura",
+    "cv-links": [
+      "https://myanimelist.net/people/56917/Kanna_Nakamura"
+    ]
+  },
+  {
+    "id": 3994311000,
+    "name": "Astaroth",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3994311000.png",
+    "desc": "An Astral of the High Council, feared as the Demon King and served by the origin beast Magus. He once plotted to seize control of the Astral Realm but was purged by the supreme primarch Lucifer, and his remains are now enshrined by Magus's hand. His ambitions reached beyond the sky and stars—even the moon and sun—to a still vaster world.",
+    "images": [
+    ],
+    "links": [
+    ],
+    "cv": "Tsuyoshi Koyama",
+    "cv-links": [
+      "https://myanimelist.net/people/285/Tsuyoshi_Koyama"
+    ]
+  }
+]
