@@ -37,7 +37,7 @@
     "relations": [
       { "to": 3050000000, "type": "action", "title": "Save", "chapter": "1.0" },
       { "to": 3040043000 },
-      { "to": 3020006000, "type": "former-subordinate" }
+      { "to": 3020006000, "type": "former-superior" }
     ]
   },
   {
@@ -178,7 +178,7 @@
     "group": "a",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991405000_01.jpg",
     "relations": [
-      { "to": 3030005000, "type": "descendant" }
+      { "to": 3030005000, "type": "ancestor" }
     ]
   },
   {
@@ -208,7 +208,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990164000_01.jpg",
     "faction": "Imperial Army",
     "relations": [
-      { "to": 3030038000, "type": "subordinate" }
+      { "to": 3030038000, "type": "superior" }
     ]
   },
   {
@@ -218,8 +218,8 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990010000_01.jpg",
     "faction": "Imperial Army",
     "relations": [
-      { "to": 3990164000, "type": "subordinate" },
-      { "to": 3030005000, "type": "former-subordinate", "chapter": "1.0" }
+      { "to": 3990164000, "type": "superior" },
+      { "to": 3030005000, "type": "former-superior", "chapter": "1.0" }
     ]
   },
   {
@@ -229,7 +229,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990017000_01.jpg",
     "faction": "Imperial Army",
     "relations": [
-      { "to": 3990010000, "type": "subordinate" }
+      { "to": 3990010000, "type": "superior" }
     ]
   },
   {
@@ -239,7 +239,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990251000_01.jpg",
     "faction": "Imperial Army",
     "relations": [
-      { "to": 3990017000, "type": "subordinate" }
+      { "to": 3990017000, "type": "superior" }
     ]
   },
   {
@@ -249,7 +249,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040432000_01.jpg",
     "faction": "Imperial Army",
     "relations": [
-      { "to": 3990251000, "type": "subordinate" }
+      { "to": 3990251000, "type": "superior" }
     ]
   },
   {
@@ -280,8 +280,8 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994088000_01.jpg",
     "faction": "Erste Empire",
     "relations": [
-      { "to": 3990153000, "type": "subordinate" },
-      { "to": 3990353000, "type": "subordinate" },
+      { "to": 3990153000, "type": "superior" },
+      { "to": 3990353000, "type": "superior" },
       { "to": 3990510000, "type": "parent" },
       { "to": 3991120000, "type": "co-worker", "event": "Anniv. 12" },
       { "to": 3994090000, "type": "co-worker", "event": "Anniv. 12" }
@@ -304,8 +304,8 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040082000_01.jpg",
     "faction": "Erste Empire",
     "relations": [
-      { "to": 3990000000, "type": "subordinate", "chapter": "1.3" },
-      { "to": 3990001000, "type": "subordinate", "chapter": "1.3" },
+      { "to": 3990000000, "type": "superior", "chapter": "1.3" },
+      { "to": 3990001000, "type": "superior", "chapter": "1.3" },
       { "to": 3990003000 }
     ]
   },
@@ -339,13 +339,13 @@
       { "to": 3993150000, "type": "family" },
       { "to": 3990419000, "type": "parent" },
       { "to": 3990616000, "type": "parent" },
-      { "to": 3040641000, "type": "subordinate" },
-      { "to": 3990018000, "type": "subordinate" },
-      { "to": 3991229000, "type": "subordinate" },
-      { "to": 3992201000, "type": "subordinate" },
-      { "to": 3992850000, "type": "subordinate" },
-      { "to": 3990670000, "type": "subordinate" },
-      { "to": 3992202000, "type": "subordinate" }
+      { "to": 3040641000, "type": "superior" },
+      { "to": 3990018000, "type": "superior" },
+      { "to": 3991229000, "type": "superior" },
+      { "to": 3992201000, "type": "superior" },
+      { "to": 3992850000, "type": "superior" },
+      { "to": 3990670000, "type": "superior" },
+      { "to": 3992202000, "type": "superior" }
     ]
   },
   {
@@ -365,8 +365,8 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040297000_01.jpg",
     "relations": [
-      { "to": 3990477000, "type": "subordinate" },
-      { "to": 3990478000, "type": "subordinate" }
+      { "to": 3990477000, "type": "superior" },
+      { "to": 3990478000, "type": "superior" }
     ]
   },
   {
@@ -375,7 +375,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040181000_01.jpg",
     "relations": [
-      { "to": 3990588000, "type": "subordinate" }
+      { "to": 3990588000, "type": "superior" }
     ]
   },
   {
@@ -384,8 +384,8 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040641000_01.jpg",
     "relations": [
-      { "to": 3990251000, "type": "former-subordinate" },
-      { "to": 3040186000, "type": "subordinate" },
+      { "to": 3990251000, "type": "former-superior" },
+      { "to": 3040186000, "type": "superior" },
       { "to": 3990157000, "type": "parent" }
     ]
   },
@@ -395,7 +395,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040632000_01.jpg",
     "relations": [
-      { "to": 3040631000, "type": "subordinate" },
+      { "to": 3040631000, "type": "superior" },
       { "to": 3994219000 }
     ]
   },
@@ -406,7 +406,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990018000_01.jpg",
     "relations": [
       { "to": 3990558000, "type": "distant-relatives" },
-      { "to": 3991094000, "type": "subordinate" }
+      { "to": 3991094000, "type": "superior" }
     ]
   },
   {
@@ -424,7 +424,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992850000_01.jpg",
     "relations": [
-      { "to": 3990416000, "type": "descendant", "event": "Anniv. 12" }
+      { "to": 3990416000, "type": "ancestor", "event": "Anniv. 12" }
     ]
   },
   {
@@ -452,7 +452,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040186000_01.jpg",
     "relations": [
-      { "to": 3990157000, "type": "subordinate" }
+      { "to": 3990157000, "type": "superior" }
     ]
   },
   {
@@ -472,15 +472,15 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040036000_01.jpg",
     "faction": "Eternals",
     "relations": [
-      { "to": 3040035000, "type": "subordinate" },
-      { "to": 3040030000, "type": "subordinate" },
-      { "to": 3040031000, "type": "subordinate" },
-      { "to": 3040032000, "type": "subordinate" },
-      { "to": 3040033000, "type": "subordinate" },
-      { "to": 3040034000, "type": "subordinate" },
-      { "to": 3040037000, "type": "subordinate" },
-      { "to": 3040038000, "type": "subordinate" },
-      { "to": 3040039000, "type": "subordinate" },
+      { "to": 3040035000, "type": "superior" },
+      { "to": 3040030000, "type": "superior" },
+      { "to": 3040031000, "type": "superior" },
+      { "to": 3040032000, "type": "superior" },
+      { "to": 3040033000, "type": "superior" },
+      { "to": 3040034000, "type": "superior" },
+      { "to": 3040037000, "type": "superior" },
+      { "to": 3040038000, "type": "superior" },
+      { "to": 3040039000, "type": "superior" },
       { "to": 3993445000, "type": "action", "title": "Save Kingdom" }
     ]
   },
@@ -706,8 +706,8 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992650000_01.jpg",
     "relations": [
-      { "to": 3991767000, "type": "subordinate" },
-      { "to": 3992289000, "type": "subordinate" }
+      { "to": 3991767000, "type": "superior" },
+      { "to": 3992289000, "type": "superior" }
     ]
   },
   {
@@ -781,7 +781,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990007000_01.jpg",
     "relations": [
       { "to": 3030006000, "type": "teacher" },
-      { "to": 3990006000, "type": "subordinate" }
+      { "to": 3990006000, "type": "superior" }
     ]
   },
   {
@@ -844,7 +844,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040171000_01.jpg",
     "relations": [
-      { "to": 3990585000, "type": "subordinate" },
+      { "to": 3990585000, "type": "superior" },
       { "to": 3991094000, "type": "family" },
       { "to": 3990589000 }
     ]
@@ -972,7 +972,7 @@
     "relations": [
       { "to": 3990618000, "type": "creator" },
       { "to": 3993479000, "type": "creator" },
-      { "to": 3990612000, "type": "subordinate" }
+      { "to": 3990612000, "type": "superior" }
     ]
   },
   {
@@ -1006,12 +1006,12 @@
     "group": "p",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040440000_01.jpg",
     "relations": [
-      { "to": 3990613000, "type": "subordinate" },
-      { "to": 3990614000, "type": "subordinate" },
-      { "to": 3990615000, "type": "subordinate" },
+      { "to": 3990613000, "type": "superior" },
+      { "to": 3990614000, "type": "superior" },
+      { "to": 3990615000, "type": "superior" },
       { "to": 3040196000, "type": "teacher" },
-      { "to": 3040443000, "type": "subordinate" },
-      { "to": 3991351000, "type": "subordinate" }
+      { "to": 3040443000, "type": "superior" },
+      { "to": 3991351000, "type": "superior" }
     ]
   },
   {
@@ -1089,7 +1089,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/summon/m/2040029000.jpg",
     "relations": [
       { "to": 3040212000, "type": "creator" },
-      { "to": 3040596000, "type": "subordinate" }
+      { "to": 3040596000, "type": "superior" }
     ]
   },
   {
@@ -1106,8 +1106,8 @@
     "group": "p",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991047000_01.jpg",
     "relations": [
-      { "to": 3991340000, "type": "subordinate" },
-      { "to": 3994071000, "type": "subordinate" }
+      { "to": 3991340000, "type": "superior" },
+      { "to": 3994071000, "type": "superior" }
     ]
   },
   {
@@ -1165,7 +1165,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990698000_01.jpg",
     "relations": [
-      { "to": 3990670000, "type": "subordinate", "title": "Fake" },
+      { "to": 3990670000, "type": "superior", "title": "Fake" },
       { "to": 3990376000, "type": "family" }
     ]
   },
@@ -1345,7 +1345,7 @@
     "group": "a",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994311000_01.jpg",
     "relations": [
-      { "to": 3993450000, "type": "subordinate" },
+      { "to": 3993450000, "type": "superior" },
       { "to": 3991053000 }
     ]
   }

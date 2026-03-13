@@ -24,7 +24,7 @@ async function loadData() {
         "parent": {
           "color": "Green", "arrows": "to", "length": 150
         },
-        "descendant": {
+        "ancestor": {
           "color": "Olive", "arrows": "to", "length": 150
         },
         "distant-relatives": {
@@ -39,10 +39,10 @@ async function loadData() {
         "teacher": {
           "color": "Orange", "arrows": "to", "length": 200
         },
-        "subordinate": {
+        "superior": {
           "color": "SlateBlue", "arrows": "to"
         },
-        "former-subordinate": {
+        "former-superior": {
           "color": "DarkOrchid", "arrows": "to"
         },
         "creator": {
