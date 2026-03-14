@@ -4,7 +4,7 @@ on:
   pull_request:
     # Activated only when changes are made to your /data/ folder
     paths:
-      - 'data/**/*.json'
+      - 'public/data/**/*.json'
   workflow_dispatch: # Manual start option
 
 permissions:
