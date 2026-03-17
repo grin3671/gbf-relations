@@ -323,6 +323,11 @@ function showNodeDetails(nodeId) {
   const sidebar = document.getElementById('sidebar');
   const content = document.getElementById('sidebarContent');
 
+  // Scroll to top
+  requestAnimationFrame(() => {
+    content.scrollTop = 0;
+  });
+
   // Generating HTML with details
   content.innerHTML = `
         <div class="character-details">
@@ -356,7 +361,58 @@ function showNodeDetails(nodeId) {
     });
   }
 
+  
+  const characterDetails = content.querySelector('.character-details');
+
+  // Get Relations
+  let relationContainer = document.createElement('div');
+  relationContainer.className = 'character-relations';
+  let relations = state.edges.filter(rel => rel.from == nodeId || rel.to == nodeId);
+  // console.log('Relations:', relations);
+  relations.forEach(rel => {
+    relationContainer.append(createSidebarRelation(rel, nodeId));
+  });
+  characterDetails.append(relationContainer);
+
   sidebar.classList.add('open');
+}
+
+function createSidebarRelation(rel, charId) {
+  const dir = rel.from == charId ? 'character-relations__link--reverse' : 'character-relations__link--direct';
+  const relId = rel.from == charId ? rel.to : rel.from;
+  const data1 = state.nodes.find(n => n.id == relId);
+  const data2 = state.nodes.find(n => n.id == charId);
+
+  let el = document.createElement('button');
+  el.type = 'button';
+  el.className = 'character-relations__link ' + dir;
+  // Generating HTML with details
+  el.innerHTML = `
+        <div class="character-relations__info">
+          <div class="character-relations__name">${data1.label.split(/\r?\n|\r|\n/g, 1)[0]}</div>
+          <div class="character-relations__type">${rel.title ? rel.type ? rel.title + ' (' + rel.type + ')' : rel.title : rel.type ? rel.type : 'relation'}</div>
+          <div class="character-relations__ribbon"></div>
+        </div>
+    `;
+
+  function createIcon (data) {
+    const icon = document.createElement('div');
+    icon.className = 'character-relations__avatar';
+    if (data.image) icon.style.backgroundImage = `url(${data.image})`;
+    return icon;
+  }
+
+  el.addEventListener('click', () => {
+    showNodeDetails(data1.id)
+  });
+
+  const icon1 = createIcon(data1)
+  const icon2 = createIcon(data2)
+
+  el.prepend(icon1);
+  el.append(icon2);
+
+  return el;
 }
 
 
