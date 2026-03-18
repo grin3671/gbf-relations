@@ -432,64 +432,131 @@ function findNode () {
 
 // Handling swipes for mobile devices
 function initSwipe() {
-  let touchStart = 0;
+  let touchStartX = 0;
+  let touchStartY = 0;
 
-  document.addEventListener('touchstart', (e) => {
-    touchStart = e.changedTouches[0].clientX;
-  });
+  const handleSwipeStart = (event) => {
+    touchStartX = event.changedTouches[0].clientX;
+    touchStartY = event.changedTouches[0].clientY;
+  };
 
-  document.addEventListener('touchend', (e) => {
+  const handleSwipeEnd = (event) => {
     const sidebar = document.getElementById('sidebar');
     if (!sidebar.classList.contains('open')) return;
 
-    const diff = e.changedTouches[0].clientX - touchStart; // swipe right
-    if (diff > 50) {
-      closeSidebar();
-    }
-  });
-  
+    const diffX = event.changedTouches[0].clientX - touchStartX;
+    const diffY = event.changedTouches[0].clientY - touchStartY;
 
+    if (Math.abs(diffX) > Math.abs(diffY) * 1.5 && diffX > 100) closeSidebar();
+  };
+
+  document.addEventListener('touchstart', handleSwipeStart);
+  document.addEventListener('touchend', handleSwipeEnd);
+}
+
+function initDragSidebar() {
   let mouseDown = false;
   let mouseStartPoint = 0;
+  let mouseStartY = 0;
+  let scrollStartY = 0;
+  let isDragging = false;
+  let isScrolling = false;
+  let lastX = 0;
+  let lastDirection = null;
+  const dragThreshold = 4;
+  const closeThreshold = 80;
+
   const sidebar = document.getElementById('sidebar');
-  sidebar.addEventListener("mousedown", (event) => {
+  const content = document.getElementById('sidebarContent');
+
+  const handleDragStart = (event) => {
     if (!sidebar.classList.contains('open')) return;
+
     mouseDown = true;
     mouseStartPoint = event.clientX;
-    sidebar.style.transition = '0s';
-    sidebar.style.userSelect = 'none';
-  });
+    mouseStartY = event.clientY;
+    scrollStartY = content.scrollTop;
+    isDragging = false;
+    isScrolling = false;
+    lastX = event.clientX;
+    lastDirection = null;
+  };
 
-  window.addEventListener("mouseup", (event) => {
-    if (!sidebar.classList.contains('open')) return;
+  const handleDragMove = (event) => {
+    if (!mouseDown) return;
 
-    let x = 0;
-    if (mouseDown) {
-      x = event.clientX - mouseStartPoint;
+    if (event.buttons === 1) {
+      const deltaX = Math.abs(event.clientX - mouseStartPoint);
+      const deltaY = Math.abs(event.clientY - mouseStartY);
+
+      // Determine the action
+      if (!isDragging && !isScrolling) {
+        if (deltaY > deltaX && deltaY > dragThreshold) {
+          isScrolling = true;
+        } else if (deltaX > deltaY && deltaX > dragThreshold) {
+          isDragging = true;
+        }
+      }
+
+      if (isScrolling || isDragging) {
+        event.preventDefault();
+        sidebar.style.userSelect = 'none';
+        window.getSelection().removeAllRanges();
+      }
+
+      if (isScrolling) {
+        const deltaY = event.clientY - mouseStartY;
+        content.scrollTop = scrollStartY - deltaY;
+      }
+
+      if (isDragging) {
+        let x = event.clientX - mouseStartPoint;
+        sidebar.style.transition = '0s';
+        sidebar.style.transform = `translateX(${ x >= 0 ? x : 0 }px)`;
+      }
+
+      // Track direction
+      if (event.clientX > lastX) {
+        lastDirection = 'right';
+      } else if (event.clientX < lastX) {
+        lastDirection = 'left';
+      }
+      lastX = event.clientX;
+    } else {
+      handleDragEnd(event)
     }
+  };
+
+  const handleDragEnd = (event) => {
+    if (!sidebar.classList.contains('open')) return;
+    event.preventDefault();
+
+    if (isDragging) {
+      let x = event.clientX - mouseStartPoint;
+      if (x > closeThreshold && lastDirection !== 'left') {
+        closeSidebar();
+      }
+    }
+
+    // State reset
     mouseDown = false;
-    mouseStartPoint = 0;
+    isDragging = false;
+    isScrolling = false;
     sidebar.style.transition = '';
     sidebar.style.transform = '';
     sidebar.style.userSelect = '';
-    
-    if (x > 100) {
-      closeSidebar();
-    }
-  });
+  };
 
-  window.addEventListener('mousemove', function(event) {
-    if (mouseDown) {
-      let x = event.clientX - mouseStartPoint;
-      sidebar.style.transform = `translateX(${ x >= 0 ? x : 0 }px)`;
-    }
-  });
+  sidebar.addEventListener('mousedown', handleDragStart);
+  window.addEventListener('mousemove', handleDragMove);
+  window.addEventListener('mouseup', handleDragEnd);
 }
 
 // App Initialization
 document.addEventListener('DOMContentLoaded', () => {
   loadData();
   initSwipe();
+  initDragSidebar();
 
   // Centering on a specific node
   const toggleRelations = document.getElementById('toggleRelations');
