@@ -378,7 +378,7 @@ function showNodeDetails(nodeId) {
 }
 
 function createSidebarRelation(rel, charId) {
-  const dir = rel.from == charId ? 'character-relations__link--reverse' : 'character-relations__link--direct';
+  const dir = rel.arrows && rel.arrows != 'from,to' ? rel.from == charId ? 'character-relations__link--reverse' : 'character-relations__link--direct' : 'character-relations__link--mutual';
   const relId = rel.from == charId ? rel.to : rel.from;
   const data1 = state.nodes.find(n => n.id == relId);
   const data2 = state.nodes.find(n => n.id == charId);

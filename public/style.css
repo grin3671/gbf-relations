@@ -449,8 +449,11 @@ a:active {
   line-height: 24px;
   cursor: pointer;
 }
-.character-relations__link.character-relations__link--reverse {
+.character-relations__link.character-relations__link--mutual {
   order: 1;
+}
+.character-relations__link.character-relations__link--reverse {
+  order: 2;
 }
 
 .character-relations__link::before {
@@ -476,6 +479,7 @@ a:active {
   width: 48px;
   height: 48px;
   background-color: var(--bg-color);
+  background-image: url(./images/m/1999999999.jpg);
   background-position: center;
   background-size: auto 110%;
   border-radius: 24px;
@@ -487,6 +491,7 @@ a:active {
 }
 
 .character-relations__name {
+  font-weight: 500;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -494,7 +499,7 @@ a:active {
 
 .character-relations__type {
   color: var(--text-secondary-color);
-  font-weight: 600;
+  font-weight: 500;
   font-size: 14px;
   text-overflow: ellipsis;
   white-space: nowrap;
