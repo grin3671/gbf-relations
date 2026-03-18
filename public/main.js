@@ -57,10 +57,10 @@ async function loadData() {
       };
 
       const relations = [];
-      
+
       const itemsWithoutRelations = data.map(item => {
         const { relations: itemRelations, ...rest } = item;
-        
+
         // Fill relations array
         relations.push(...itemRelations.map(relation => ({
           ...relation,
@@ -70,11 +70,11 @@ async function loadData() {
             ...typeConfig[relation.type]
           })
         })));
-        
+
         // Return everything except relationships.
         return rest;
       });
-      
+
       return { items: itemsWithoutRelations, relations };
     }
 
@@ -89,10 +89,10 @@ async function loadData() {
 
     console.log(Date.now(), 'Data processing...')
     const charactersData  = await charactersJson.json();
-    
+
     const { items, relations } = transformData(charactersData);
-    console.log('Nodes:', items);
-    console.log('Edges:', relations);
+    console.log('Nodes:', items.length);
+    console.log('Edges:', relations.length);
 
     state.nodes = items;
     state.edges = relations;
@@ -143,7 +143,7 @@ function initGraph(opts) {
   const edges = new vis.DataSet(state.edges);
 
   state.availableChapters = getChapterList(state.edges);
-  console.log('Filters:', state.availableChapters);
+  console.log('Filters:', state.availableChapters.length);
 
   // Filtering state (stored in state)
   state.filters = {
@@ -173,7 +173,7 @@ function initGraph(opts) {
     // For example, a filter by relationship type:
     // const relationOk = state.filters.selectedRelations.size === 0 || 
     //                   state.filters.selectedRelations.has(edge.relation);
-    
+
     return chapterOk; // && relationOk;
   };
 
@@ -186,7 +186,7 @@ function initGraph(opts) {
 
   // Create a DataView for the filtered edges
   state.edgesView = new vis.DataView(edges, { filter: edgesFilter });
-  
+
   // Create a DataView for the nodes (if filtering is needed)
   state.nodesView = new vis.DataView(nodes, { filter: nodesFilter });
 
@@ -347,7 +347,6 @@ function showNodeDetails(nodeId) {
         </div>
     `;
 
-  
   let wikiLink = sidebar.querySelector('.gbf-link');
   if (wikiLink) wikiLink.classList.add('hidden');
 
@@ -361,7 +360,6 @@ function showNodeDetails(nodeId) {
     });
   }
 
-  
   const characterDetails = content.querySelector('.character-details');
 
   // Get Relations

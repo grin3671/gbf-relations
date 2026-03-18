@@ -151,7 +151,7 @@ a:active {
   position: fixed;
   inset: 0 auto 0 0;
   height: min-content;
-  max-height: 85%;
+  max-height: 63%;
   padding: 10px;
   margin: auto;
   background: var(--sidebar-bg);
@@ -292,7 +292,7 @@ a:active {
   top: 0;
   right: 0;
   width: 360px;
-  height: 100vh;
+  height: 100%;
   background-color: var(--sidebar-bg);
   border-left: 1px solid var(--border-color);
   box-shadow: -2px 0 10px var(--shadow-color);
