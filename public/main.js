@@ -318,7 +318,7 @@ function showNodeDetails(nodeId) {
   const details = getCharacterDetails(node);
   const data = details ? details : node;
 
-  state.selectedNode = node;
+  state.selectedNode = nodeId;
 
   const sidebar = document.getElementById('sidebar');
   const content = document.getElementById('sidebarContent');
@@ -415,6 +415,7 @@ function createSidebarRelation(rel, charId) {
 
 
 function closeSidebar() {
+  if (!state.selectedNode) return;
   const sidebar = document.getElementById('sidebar');
   sidebar.classList.remove('open');
   state.selectedNode = null;
@@ -422,9 +423,8 @@ function closeSidebar() {
 
 
 function findNode () {
-  if (!state.selectedNode || !state.selectedNode.id) return;
-  console.log(state.selectedNode);
-  state.network.focus(state.selectedNode.id, {
+  if (!state.selectedNode) return;
+  state.network.focus(state.selectedNode, {
     offset: { x: -180, y: 0 },
     animation: true
   });
