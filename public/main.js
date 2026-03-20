@@ -434,20 +434,24 @@ function findNode () {
 function initSwipe() {
   let touchStartX = 0;
   let touchStartY = 0;
+  let isSwapping = false;
+  const swipeThreshold = 60;
 
   const handleSwipeStart = (event) => {
+    isSwapping = true;
     touchStartX = event.changedTouches[0].clientX;
     touchStartY = event.changedTouches[0].clientY;
   };
 
   const handleSwipeEnd = (event) => {
     const sidebar = document.getElementById('sidebar');
-    if (!sidebar.classList.contains('open')) return;
+    if (!isSwapping || !sidebar.classList.contains('open')) return;
 
     const diffX = event.changedTouches[0].clientX - touchStartX;
     const diffY = event.changedTouches[0].clientY - touchStartY;
 
-    if (Math.abs(diffX) > Math.abs(diffY) * 1.5 && diffX > 100) closeSidebar();
+    if (Math.abs(diffX) > Math.abs(diffY) * 1.5 && diffX > swipeThreshold) closeSidebar();
+    isSwapping = false;
   };
 
   document.addEventListener('touchstart', handleSwipeStart);
