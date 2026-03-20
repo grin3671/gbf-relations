@@ -586,6 +586,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  const sidebarContent = document.getElementById('sidebarContent');
+  const sidebarHeader = document.querySelector('.sidebar-controls');
+  if (sidebarContent && sidebarHeader) {
+    sidebarContent.addEventListener('scroll', () => {
+      const scrollY = sidebarContent.scrollTop;
+      sidebarHeader.classList.toggle('sidebar-controls--scrolled', scrollY >= 100);
+    });
+  }
+
   // Adaptation when resizing a window
   // window.addEventListener('resize', () => {
   //   state.network.fit();
