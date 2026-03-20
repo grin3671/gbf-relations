@@ -358,6 +358,12 @@ a:active {
   margin-left: auto;
 }
 
+@media (max-width: 575px) {
+  .sidebar-controls .center-btn {
+    display: none;
+  }
+}
+
 
 .sidebar-content {
   flex: 1;
