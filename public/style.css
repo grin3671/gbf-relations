@@ -467,10 +467,6 @@ a:active {
   font-weight: 600;
 }
 
-.character-voice {
-  border-top: thin solid var(--border-color);
-}
-
 /* Character relations */
 .character-relations {
   display: flex;

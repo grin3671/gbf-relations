@@ -343,13 +343,7 @@ function showNodeDetails(nodeId) {
         : ''}
             </div>
             <div class="character-name"><h3>${data.label}</h3></div>
-            <p><strong>Race:</strong> ${data.race || 'Unknown'}</p>
-            <p>${data.description || 'No description'}</p>
-            <div class="character-voice">
-              <p><strong>CV:</strong> ${data["cv-links"] ?
-        `<a href="${data["cv-links"][0]}" rel="nofollow">${data.cv || 'Unknown'}</a>`
-        : `${data.cv || 'Unknown'}`}</p>
-            </div>
+            <p>${data.description}</p>
         </div>
     `;
 
@@ -367,6 +361,18 @@ function showNodeDetails(nodeId) {
   }
 
   const characterDetails = content.querySelector('.character-details');
+
+  // Get Voices
+  if (data.cv) {
+    let voiceActorsContainer = document.createElement('div');
+    voiceActorsContainer.className = 'character-voices';
+    voiceActorsContainer.innerHTML = `
+      <p><strong>CV:</strong> ${data["cv-links"]?.[0] ?
+      `<a href="${data["cv-links"][0]}" rel="nofollow">${data.cv || 'Unknown'}</a>`
+      : `${data.cv || 'Unknown'}`}</p>
+    `;
+    characterDetails.append(voiceActorsContainer);
+  }
 
   // Get Relations
   let relationContainer = document.createElement('div');
