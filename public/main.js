@@ -1,5 +1,6 @@
 import * as vis from './libs/vis-network@10.0.2/vis-network.min.js';
 import { marked } from './libs/marked@16.3.0/marked.esm.min.js';
+import KeenSlider from './libs/keen-slider@4.2.6/keen-slider.esm.js';
 
 const state = {
   nodes: [],
@@ -348,18 +349,13 @@ function showNodeDetails(nodeId) {
   const sidebar = document.getElementById('sidebar');
   const content = document.getElementById('sidebarContent');
 
-  // Scroll to top
-  requestAnimationFrame(() => {
-    content.scrollTop = 0;
-  });
-
   // Generating HTML with details
   content.innerHTML = `
         <div class="character-details">
             <div class="character-visual">
-              ${data.images?.length ?
-        `<img src="${data.images[0].image}" alt="${data.images[0].label}" class="character-image">`
-        : ''}
+                <div class="character-slider">
+                    <div id="imageSlider" class="keen-slider"></div>
+                </div>
             </div>
             <div class="character-name"><h3>${data.name}</h3><strong>${data.title}</strong></div>
             <p>${data.description}</p>
@@ -402,6 +398,37 @@ function showNodeDetails(nodeId) {
     relationContainer.append(createSidebarRelation(rel, nodeId));
   });
   characterDetails.append(relationContainer);
+
+  if (data.images) {
+    const sliderElement = document.getElementById('imageSlider');
+
+    // Prepare HTML for Keen Slider
+    sliderElement.innerHTML = data.images.map(item => `
+        <div class="keen-slider__slide">
+            <img src="${item.image}" alt="${item.label}">
+            <span class="character-image__label">${item.label}</span>
+        </div>
+    `).join('');
+
+    // Initialize Keen Slider
+    var slider = new KeenSlider(
+      '#imageSlider',
+      {
+        loop: true,
+        created: () => {
+          if (data.images.length > 1) sliderElement.classList.add('active');
+        },
+      },
+      [
+        // add plugins here
+      ]
+    );
+  }
+
+  // Scroll to top
+  requestAnimationFrame(() => {
+    content.scrollTop = 0;
+  });
 
   sidebar.classList.add('open');
 }
@@ -469,6 +496,7 @@ function initSwipe() {
   const swipeThreshold = 60;
 
   const handleSwipeStart = (event) => {
+    if (event.target.closest('.keen-slider.active')) return;
     isSwapping = true;
     touchStartX = event.changedTouches[0].clientX;
     touchStartY = event.changedTouches[0].clientY;
@@ -505,6 +533,7 @@ function initDragSidebar() {
   const content = document.getElementById('sidebarContent');
 
   const handleDragStart = (event) => {
+    if (event.target.closest('.keen-slider.active')) return;
     if (!sidebar.classList.contains('open')) return;
 
     mouseDown = true;
