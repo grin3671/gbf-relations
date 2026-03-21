@@ -37,6 +37,16 @@
         "strokeWidth": 2,
         "strokeColor": "#9f55c2"
       }
+    },
+    "t": {
+      "shape": "box",
+      "margin": 12,
+      "borderWidth": 0,
+      "chosen": false,
+      "color": {
+        "color": "#ffffff",
+        "background": "#2c2e33"
+      }
     }
   }
 }
