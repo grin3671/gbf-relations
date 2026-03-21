@@ -103,13 +103,57 @@ async function loadData() {
     state.nodes = items;
     state.edges = relations;
     let options = await opts.json();
-    state.details = await details.json();
 
     console.log(Date.now(), 'Graph construction...')
     initGraph(options);
+
+    // prepare characters data for sidebar view
+    const characters = await details.json();
+    state.characters = transformCharactersData(items, characters);
+    console.log('Characters:', state.characters)
   } catch (error) {
     console.error('Error loading data:', error);
   }
+}
+
+function transformCharactersData(nodes, details) {
+  // Create a Map for quick access to Details by ID
+  const detailsMap = new Map(details.map(d => [d.id, d]));
+
+  // Supplement each Node with data from Map
+  return nodes.map(node => {
+    const detail = detailsMap.get(node.id);
+
+    // Base object
+    const data = {
+      id: node.id,
+      name: node.label.split(/\r?\n|\r|\n/g)[0]?.trim() || '',
+      title: node.label.split(/\r?\n|\r|\n/g)[1]?.trim().slice(1, -1) || '',
+      ...node
+    };
+
+    // Add/overwrite fields from Map
+    if (detail) {
+      data.name = detail.name || node.label;
+      data.description = detail.desc || 'No description';
+
+      // Add all the remaining fields from Map
+      Object.assign(data, detail);
+
+      // Handling images from Map
+      data.images = detail.images?.length > 0 
+        ? detail.images 
+        : node.image ? [{ image: node.image, label: 'icon' }] : [];
+    } else {
+      // If Map doesn't have any additional images, add the Node icon as a single image.
+      data.images = node.image 
+        ? [{ image: node.image, label: 'icon' }] 
+        : [];
+      data.description = 'No description';
+    }
+
+    return data;
+  });
 }
 
 function getChapterList(arr) {
@@ -293,36 +337,11 @@ function setEdgeFilter(filters) {
   }
 }
 
-// Function to get character details with priority from details
-function getCharacterDetails(node) {
-  if (!node) return null;
-
-  // Get details by character ID
-  const data = state.details.find(x => x.id === node.id);
-  if (!data) return null;
-
-  // Using information from details
-  return {
-    label: data.name || node.label,
-    image: data.image || node.image,
-    description: data.desc || 'No description',
-    race: data.race || node.details?.race || 'Unknown',
-    cv: data.cv || 'Unknown',
-    // Additional fields from details
-    ...data
-  };
-}
-
 // Show character details (open sidebar)
 function showNodeDetails(nodeId) {
   console.log('showNodeDetails', nodeId);
 
-  const node = state.nodes.find(n => n.id == nodeId);
-  if (!node) return;
-
-  // Get character details
-  const details = getCharacterDetails(node);
-  const data = details ? details : node;
+  const data = state.characters.find(n => n.id == nodeId);
 
   state.selectedNode = nodeId;
 
@@ -338,11 +357,11 @@ function showNodeDetails(nodeId) {
   content.innerHTML = `
         <div class="character-details">
             <div class="character-visual">
-              ${data.image ?
-        `<img src="${data.image}" alt="${data.label}" class="character-image">`
+              ${data.images?.length ?
+        `<img src="${data.images[0].image}" alt="${data.images[0].label}" class="character-image">`
         : ''}
             </div>
-            <div class="character-name"><h3>${data.label}</h3></div>
+            <div class="character-name"><h3>${data.name}</h3><strong>${data.title}</strong></div>
             <p>${data.description}</p>
         </div>
     `;
@@ -390,8 +409,8 @@ function showNodeDetails(nodeId) {
 function createSidebarRelation(rel, charId) {
   const dir = rel.arrows && rel.arrows != 'from,to' ? rel.from == charId ? 'character-relations__link--reverse' : 'character-relations__link--direct' : 'character-relations__link--mutual';
   const relId = rel.from == charId ? rel.to : rel.from;
-  const data1 = state.nodes.find(n => n.id == relId);
-  const data2 = state.nodes.find(n => n.id == charId);
+  const data1 = state.characters.find(n => n.id == relId);
+  const data2 = state.characters.find(n => n.id == charId);
 
   let el = document.createElement('button');
   el.type = 'button';
@@ -399,7 +418,7 @@ function createSidebarRelation(rel, charId) {
   // Generating HTML with details
   el.innerHTML = `
         <div class="character-relations__info">
-          <div class="character-relations__name">${data1.label.split(/\r?\n|\r|\n/g, 1)[0]}</div>
+          <div class="character-relations__name">${data1.name}</div>
           <div class="character-relations__type">${rel.title ? rel.type ? rel.title + ' (' + rel.type + ')' : rel.title : rel.type ? rel.type : 'relation'}</div>
           <div class="character-relations__ribbon"></div>
         </div>

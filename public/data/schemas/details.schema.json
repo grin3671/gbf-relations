@@ -7,7 +7,6 @@
       "id",
       "name",
       "desc",
-      "image",
       "images",
       "links",
       "cv",
@@ -26,20 +25,15 @@
         "type": "string",
         "description": "Character description"
       },
-      "image": {
-        "type": "string",
-        "description": "Main character image path",
-        "pattern": "^https://.*\\.png$"
-      },
       "images": {
         "type": "array",
-        "description": "List of additional images",
+        "description": "List of character images",
         "items": {
           "type": "object",
           "properties": {
             "image": {
               "type": "string",
-              "description": "Additional image path",
+              "description": "Path to image",
               "pattern": "^https://.*\\.png$"
             },
             "label": {

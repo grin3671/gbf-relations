@@ -449,12 +449,18 @@ a:active {
 
 .character-name {
   position: relative;
+  margin-bottom: 15px;
 }
 
-.character-details h3 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
+.character-name h3 {
+  font-size: 1.5rem;
   color: var(--text-color);
+}
+
+.character-name strong {
+  color: var(--text-secondary-color);
+  font-size: .875rem;
+  font-weight: 500;
 }
 
 .character-details p {
@@ -464,7 +470,7 @@ a:active {
 }
 
 .character-details strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* Character relations */
