@@ -18,6 +18,9 @@ async function loadData() {
         "action": {
           "color": "FireBrick", "arrows": "to", "length": 200
         },
+        "intention": {
+          "color": "Sienna", "arrows": "to", "length": 200
+        },
         "family": {
           "color": "SeaGreen", "length": 100
         },
@@ -28,7 +31,7 @@ async function loadData() {
           "color": "Olive", "arrows": "to", "length": 150
         },
         "distant-relatives": {
-          "color": "DarkSeaGreen", "arrows": "to", "length": 150, "title": "Distant Relatives"
+          "color": "DarkSeaGreen", "arrows": "to", "length": 150
         },
         "co-worker": {
           "color": "Turquoise", "length": 300
@@ -40,10 +43,10 @@ async function loadData() {
           "color": "Orange", "arrows": "to", "length": 200
         },
         "superior": {
-          "color": "SlateBlue", "arrows": "to"
+          "color": "SlateBlue", "arrows": "to", "length": 150
         },
         "former-superior": {
-          "color": "DarkOrchid", "arrows": "to"
+          "color": "DarkOrchid", "arrows": "to", "length": 200
         },
         "creator": {
           "color": "Gold", "arrows": "to", "length": 150
@@ -52,7 +55,10 @@ async function loadData() {
           "color": "Goldenrod", "arrows": "from,to", "length": 150
         },
         "clone": {
-          "color": "BurlyWood", "arrows": "to", "length": 150, "title": "Clone"
+          "color": "BurlyWood", "arrows": "to", "length": 150
+        },
+        "belongs": {
+          "color": "LightSlateGray", "arrows": "to", "length": 150
         }
       };
 

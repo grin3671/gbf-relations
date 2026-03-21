@@ -55,6 +55,7 @@
               "enum": [
                 "crew",
                 "action",
+                "intention",
                 "family",
                 "parent",
                 "ancestor",
@@ -65,7 +66,8 @@
                 "former-superior",
                 "creator",
                 "same-person",
-                "clone"
+                "clone",
+                "belongs"
               ]
             },
             "title": {
