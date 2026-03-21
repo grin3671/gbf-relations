@@ -1,20 +1,14 @@
 {
-  "physics": {
-    "enabled": true,
-    "stabilization": true
-  },
   "layout": {
-    "randomSeed": 1,
-    "improvedLayout": true
+    "randomSeed": 1
   },
   "interaction": {
-    "hover": true,
-    "keyboard": true
+    "hover": true
   },
   "edges": {
     "smooth": true,
     "color": {
-      "inherit": "both"
+      "inherit": true
     }
   },
   "groups": {
