@@ -6,8 +6,10 @@
     "image": "./images/m/3990219000_01.jpg",
     "relations": [
       { "to": 3030005000, "type": "crew", "dashes": true, "chapter": "1.0" },
-      { "to": 3030008000, "type": "crew", "dashes": true, "chapter": "1.2" },
-      { "to": 3991612000 }
+      { "to": 3030008000, "type": "crew", "dashes": true, "chapter": "1.4" },
+      { "to": 3030006000, "type": "crew", "dashes": true, "chapter": "1.8" },
+      { "to": 3030010000, "type": "crew", "dashes": true, "chapter": "1.14" },
+      { "to": 3991612000, "title": "Friendship" }
     ]
   },
   {
@@ -36,8 +38,8 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040054000_01.jpg",
     "relations": [
       { "to": 3050000000, "type": "action", "title": "Save", "chapter": "1.0" },
-      { "to": 3040043000 },
-      { "to": 3020006000, "type": "former-superior" }
+      { "to": 3040043000, "title": "Friendship" },
+      { "to": 3020006000, "type": "former-superior", "chapter": "1.10" }
     ]
   },
   {
@@ -46,7 +48,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040065000_01.jpg",
     "relations": [
-      
+      { "to": 3030010000, "dashes": true, "title": "Innermost Teaching" }
     ]
   },
   {
@@ -55,8 +57,8 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040077000_01.jpg",
     "relations": [
-      { "to": 3990002000, "type": "parent" },
-      { "to": 2040028000, "dashes": true }
+      { "to": 3990002000, "type": "parent", "title": "Father" },
+      { "to": 2040028000, "dashes": true, "title": "Innermost Teaching" }
     ]
   },
   {
@@ -65,7 +67,8 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040059000_01.jpg",
     "relations": [
-      { "to": 2040020000, "dashes": true }
+      { "to": 3030007000, "chapter": "1.9", "title": "Acquaintance" },
+      { "to": 2040020000, "dashes": true, "title": "Innermost Teaching" }
     ]
   },
   {
@@ -74,7 +77,7 @@
     "group": "p",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040068000_01.jpg",
     "relations": [
-      { "to": 3030006000, "dashes": true }
+      { "to": 3990003000, "type": "action", "dashes": true, "title": "Kidnapping", "chapter": "1.14" }
     ]
   },
   {
@@ -107,8 +110,7 @@
       { "to": 3040641000, "type": "crew" },
       { "to": 3030010000, "type": "crew" },
       { "to": 3992203000, "type": "crew" },
-      { "to": 3030039000, "type": "crew" },
-      { "to": 3050001000 }
+      { "to": 3030039000, "type": "crew" }
     ]
   },
   {
@@ -119,7 +121,8 @@
     "relations": [
       { "to": 3990219000, "type": "parent" },
       { "to": 3993997000, "type": "family" },
-      { "to": 3991123000, "type": "family" }
+      { "to": 3991123000, "type": "family" },
+      { "to": 3994092000, "arrows": "to", "title": "Vessel" }
     ]
   },
   {
@@ -229,7 +232,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990017000_01.jpg",
     "faction": "Imperial Army",
     "relations": [
-      { "to": 3990010000, "type": "superior" }
+      { "to": 3990010000, "type": "superior", "chapter": "1.10" }
     ]
   },
   {
@@ -282,7 +285,7 @@
     "relations": [
       { "to": 3990153000, "type": "superior" },
       { "to": 3990353000, "type": "superior" },
-      { "to": 3990510000, "type": "parent" },
+      { "to": 3990510000, "type": "parent", "title": "Father" },
       { "to": 3991120000, "type": "co-worker", "event": "Anniv. 12" },
       { "to": 3994090000, "type": "co-worker", "event": "Anniv. 12" }
     ]
@@ -294,7 +297,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990510000_01.jpg",
     "faction": "Erste Empire",
     "relations": [
-      { "to": 3990002000 }
+      { "to": 3990002000, "title": "Childhood Friend" }
     ]
   },
   {
@@ -343,7 +346,7 @@
       { "to": 3990018000, "type": "superior" },
       { "to": 3991229000, "type": "superior" },
       { "to": 3992201000, "type": "superior" },
-      { "to": 3992850000, "type": "superior" },
+      { "to": 3994307000, "type": "superior" },
       { "to": 3990670000, "type": "superior" },
       { "to": 3992202000, "type": "superior" }
     ]
@@ -405,6 +408,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990018000_01.jpg",
     "relations": [
+      { "to": 3993997000, "chapter": "1.14" },
       { "to": 3990558000, "type": "distant-relatives" },
       { "to": 3991094000, "type": "superior" }
     ]
@@ -420,11 +424,10 @@
   },
   {
     "id": 3992850000,
-    "label": "Octavia\n[Green Knight]",
+    "label": "Clockwork Octavia No. 3",
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992850000_01.jpg",
     "relations": [
-      { "to": 3990416000, "type": "ancestor", "event": "Anniv. 12" }
     ]
   },
   {
@@ -697,7 +700,8 @@
     "group": "a",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991120000_01.jpg",
     "relations": [
-      { "to": 3990018000, "arrows": "to" }
+      { "to": 3990018000, "arrows": "to", "title": "Overseer" },
+      { "to": 3991119000, "arrows": "to", "title": "Foster mother" }
     ]
   },
   {
@@ -761,7 +765,7 @@
     "group": "a",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994305000_01.jpg",
     "relations": [
-      { "to": 3992850000, "arrows": "to", "event": "Anniv. 12" },
+      { "to": 3994307000, "arrows": "to", "event": "Anniv. 12", "title": "Overseer" },
       { "to": 3994330000, "type": "co-worker", "event": "Anniv. 12" }
     ]
   },
@@ -780,8 +784,8 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3990007000_01.jpg",
     "relations": [
-      { "to": 3030006000, "type": "teacher" },
-      { "to": 3990006000, "type": "superior" }
+      { "to": 3030006000, "type": "teacher", "chapter": "1.6" },
+      { "to": 3990006000, "type": "superior", "chapter": "1.5" }
     ]
   },
   {
@@ -899,7 +903,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040514000_01.jpg",
     "relations": [
-      { "to": 3993445000 }
+      { "to": 3993445000, "title": "Betrothed" }
     ]
   },
   {
@@ -919,7 +923,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3993452000_01.jpg",
     "relations": [
-      { "to": 3992591000 },
+      { "to": 3992591000, "title": "Natural Enemy" },
       { "to": 3993460000, "type": "creator" },
       { "to": 3993447000, "type": "action", "title": "Immortality" },
       { "to": 3993453000, "type": "same-person" }
@@ -931,6 +935,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040597000_01.jpg",
     "relations": [
+      { "to": 3993445000 }
     ]
   },
   {
@@ -1137,7 +1142,7 @@
   {
     "id": 3040443000,
     "label": "Halluel and Malluel",
-    "group": "d",
+    "group": "p",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/summon/m/2040275000.jpg",
     "relations": [
     ]
@@ -1145,7 +1150,7 @@
   {
     "id": 3991351000,
     "label": "Azrael and Israfel",
-    "group": "d",
+    "group": "p",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991351000_01.jpg",
     "relations": [
     ]
@@ -1181,7 +1186,7 @@
     "id": 3992764000,
     "label": "Orologia",
     "group": "d",
-    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992764000_01.jpg",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040536000_01_0.jpg",
     "relations": [
       { "to": 3990219000 },
       { "to": 3040449000 }
@@ -1246,7 +1251,6 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994092000_01.jpg",
     "relations": [
-       { "to": 3994001000, "arrows": "to", "title": "Vessel" }
     ]
   },
   {
@@ -1317,7 +1321,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994303000_01.jpg",
     "relations": [
       { "to": 3994330000, "type": "co-worker", "event": "Anniv. 12" },
-      { "to": 3994090000, "event": "Anniv. 12" }
+      { "to": 3994090000, "event": "Anniv. 12", "title": "Friendship" }
     ]
   },
   {
@@ -1336,7 +1340,7 @@
     "group": "a",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994330000_01.jpg",
     "relations": [
-      { "to": 3994301000, "arrows": "to", "event": "Anniv. 12" }
+      { "to": 3994301000, "arrows": "to", "event": "Anniv. 12", "title": "Overseer" }
     ]
   },
   {
@@ -1347,6 +1351,16 @@
     "relations": [
       { "to": 3993450000, "type": "superior" },
       { "to": 3991053000 }
+    ]
+  },
+  {
+    "id": 3994307000,
+    "label": "Octavia\n[Green Knight]",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040644000_01.jpg",
+    "relations": [
+      { "to": 3990416000, "type": "ancestor", "event": "Anniv. 12" },
+      { "to": 3992850000, "type": "creator", "event": "Anniv. 12" }
     ]
   }
 ]
