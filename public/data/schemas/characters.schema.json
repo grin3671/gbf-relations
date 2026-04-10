@@ -11,7 +11,7 @@
     ],
     "properties": {
       "id": {
-        "type": "integer",
+        "type": ["integer", "string"],
         "description": "ID of character"
       },
       "label": {
@@ -47,7 +47,7 @@
           "required": ["to"],
           "properties": {
             "to": {
-              "type": "integer",
+              "type": ["integer", "string"],
               "description": "ID of related character"
             },
             "type": {

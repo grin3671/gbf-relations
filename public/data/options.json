@@ -1,6 +1,7 @@
 {
   "layout": {
-    "randomSeed": 1
+    "randomSeed": 1,
+    "improvedLayout": false
   },
   "interaction": {
     "hover": true
