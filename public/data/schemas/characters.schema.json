@@ -33,7 +33,7 @@
       "image": {
         "type": "string",
         "description": "Path to character image",
-        "pattern": "^*\\.jpg$"
+        "pattern": "^.*\\.jpg$"
       },
       "faction": {
         "type": "string",
