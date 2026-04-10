@@ -19,16 +19,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Validate JSON files
+      - name: Validate characters.json
         uses: GrantBirki/json-yaml-validate@v4.0.0
         with:
-          # --- Key settings ---
-          # Base directory for searching files
-          base_dir: './public/data'
           # Path to the folder with your schemas
-          json_schema: './public/data/schemas/'
-          # ---------------------------------
+          json_schema: 'public/data/schemas/characters.schema.json'
+          # List of file paths to validate. Each file path must be on a newline.
+          files: 'public/data/characters.json'
           # Optional: comment in PR with results
           comment: 'true'
-          # Optional: exclude schema files themselves from checking
-          json_exclude_regex: '.*\.schema\.json$'
+
+      - name: Validate details.json
+        uses: GrantBirki/json-yaml-validate@v4.0.0
+        with:
+          json_schema: 'public/data/schemas/details.schema.json'
+          files: 'public/datadetails.json'
+          comment: 'true'
