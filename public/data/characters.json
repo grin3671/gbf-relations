@@ -504,7 +504,7 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040031000_01.jpg",
     "faction": "Eternals",
     "relations": [
-      { "to": 3040049000 }
+      { "to": 3040049000, "title": "Friendship" }
     ]
   },
   {
@@ -573,8 +573,8 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040049000_01.jpg",
     "relations": [
-      { "to": 3020032000 },
-      { "to": 3030155000 }
+      { "to": 3020032000, "title": "Foster sister" },
+      { "to": 3030155000, "title": "Foster sister" }
     ]
   },
   {
@@ -583,7 +583,7 @@
     "group": "d",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3020032000_01.jpg",
     "relations": [
-      { "to": 3030155000 }
+      { "to": 3030155000, "title": "Foster sister" }
     ]
   },
   {
