@@ -123,6 +123,33 @@ a:active {
   overflow: hidden;
 }
 
+#loading {
+  position: absolute;
+  inset: 0;
+  width: 240px;
+  max-width: 70%;
+  height: 8px;
+  margin: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+}
+
+#loading[style*="100"] {
+  display: none;
+}
+
+#loading::before {
+  --pos-x: calc(100% - var(--progress, 0) / 100 * 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background-image: linear-gradient(90deg, #2b7ce9 50%, transparent 50%);
+  background-position-x: var(--pos-x, -100%);
+  background-repeat: no-repeat;
+  background-size: 200%;
+}
+
 /* ===== Main ===== */
 #graph-container {
   width: 100%;

@@ -273,12 +273,21 @@ function initNetworkEvents() {
     closeSidebar();
   });
 
+  state.network.on("stabilizationProgress", function (params) {
+    const progress = params.iterations / params.total;
+    const loadingBar = document.getElementById("loading");
+    loadingBar.style.setProperty("--progress", progress * 100);
+  });
+
   state.network.once('stabilizationIterationsDone', function () {
     // Centering on a specific node
     state.network.focus(3990219000, {
       scale: 1.0,
       animation: false
     });
+
+    const loadingBar = document.getElementById("loading");
+    loadingBar.remove();
 
     initAfter();
   });
