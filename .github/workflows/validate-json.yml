@@ -33,5 +33,5 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v4.0.0
         with:
           json_schema: 'public/data/schemas/details.schema.json'
-          files: 'public/datadetails.json'
+          files: 'public/data/details.json'
           comment: 'true'
