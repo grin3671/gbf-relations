@@ -1356,7 +1356,7 @@
     ]
   },
   {
-    "id": "Diviners",
+    "id": 1003468000,
     "label": "Diviners",
     "group": "t",
     "relations": [
@@ -1369,7 +1369,7 @@
     "group": "p",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040601000_01.jpg",
     "relations": [
-      { "to": "Diviners", "type": "belongs" }
+      { "to": 1003468000, "type": "belongs" }
     ]
   },
   {
@@ -1377,7 +1377,7 @@
     "label": "Osiris",
     "group": "p",
     "relations": [
-      { "to": "Diviners", "type": "belongs" }
+      { "to": 1003468000, "type": "belongs" }
     ]
   },
   {
@@ -1385,7 +1385,7 @@
     "label": "Ra",
     "group": "p",
     "relations": [
-      { "to": "Diviners", "type": "belongs" }
+      { "to": 1003468000, "type": "belongs" }
     ]
   },
   {
@@ -1394,7 +1394,7 @@
     "group": "p",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040537000_01.jpg",
     "relations": [
-      { "to": "Diviners", "type": "belongs" }
+      { "to": 1003468000, "type": "belongs" }
     ]
   },
   {
@@ -1403,7 +1403,7 @@
     "group": "p",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040518000_01.jpg",
     "relations": [
-      { "to": "Diviners", "type": "belongs" }
+      { "to": 1003468000, "type": "belongs" }
     ]
   },
   {
@@ -1412,7 +1412,7 @@
     "group": "p",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040627000_01.jpg",
     "relations": [
-      { "to": "Diviners", "type": "belongs" }
+      { "to": 1003468000, "type": "belongs" }
     ]
   },
   {
