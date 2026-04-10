@@ -1614,5 +1614,23 @@
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992570000_01.jpg",
     "relations": [
     ]
+  },
+  {
+    "id": 3050002000,
+    "label": "Sierokarte",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3050002000_01.jpg",
+    "relations": [
+      { "to": 3040030000, "arrows": "to", "title": "His father's disciple" },
+      { "to": 3020043000, "title": "Friendship" }
+    ]
+  },
+  {
+    "id": 3020043000,
+    "label": "Karteira",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3020043000_01.jpg",
+    "relations": [
+    ]
   }
 ]
