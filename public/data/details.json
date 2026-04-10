@@ -147,6 +147,36 @@
     "cv-links": []
   },
   {
+    "id": 3993997000,
+    "name": "Gallanth",
+    "desc": "A legendary skyfarer who traveled the skies as a disciple of the god of destruction before ultimately arriving in Estalucia. The biological father of the main character, he inspired his child's journey with a letter stating he would be waiting on the Island of the Astrals. While his exact origins are unclear, he was raised like family alongside his future wife Rein and mastered unarmed combat under the tutelage of an elderly woman in their hometown. Gallanth has ties to both Vyrn, who was entrusted to him and Rein, and Lyria, whom he discovered in the Ecksegrande Skydom, but he is not a singularity. Though many wild tales remain of his battles with primal beasts, his temperament has mellowed following his two journeys and the birth of his child.",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993997000.png", "label": "default" }
+    ],
+    "links": [
+      "https://gbf.wiki/Gallanth_(NPC)"
+    ],
+    "cv": "Yuuki Ono",
+    "cv-links": [
+      "https://myanimelist.net/people/1154/Yuuki_Ono"
+    ]
+  },
+  {
+    "id": 3994000000,
+    "name": "Rel Estalucia",
+    "desc": "The Speaker and attendant of the Omnipotent's clone in Estalucia, they are tasked with the realm's management and maintenance. While granted immense authority within Estalucia, they were created solely for its upkeep and is unable to leave its confines. During the time when the afterlife was distorted by the Otherworld's influence, their workload was light. However, with the disappearance of the Omnipotent's clone and the collapse of the Otherworld, their duties have surged, leaving them somewhat flustered. Deep down, they secretly dream of one day visiting the oceans of the Sky Realm, but no one understands better than them that such a wish can never be fulfilled.",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3994000000.png", "label": "default" }
+    ],
+    "links": [
+      "https://gbf.wiki/Rel_Estalucia_(NPC)"
+    ],
+    "cv": "Rika Nagae",
+    "cv-links": [
+      "https://myanimelist.net/people/43303/Rika_Nagae"
+    ]
+  },
+  {
     "id": 3994303000,
     "name": "Onoskelis",
     "desc": "An Astral who once oversaw the Oarlyegrande Skydom. Thrust into the position through a series of unlikely turns, she failed to conquer the Istavion Kingdom during the invasion, leaving her authority in name only. Possessing the pride of an Astral without the ability to match it, she craves recognition from others. She and Lilit had known each other before coming to the Sky Realm, theirs being the one relationship she could consider a friendship.",
@@ -174,21 +204,6 @@
     "cv": "Tsuyoshi Koyama",
     "cv-links": [
       "https://myanimelist.net/people/285/Tsuyoshi_Koyama"
-    ]
-  },
-  {
-    "id": 3994000000,
-    "name": "Rel Estalucia",
-    "desc": "The Speaker and attendant of the Omnipotent's clone in Estalucia, they are tasked with the realm's management and maintenance. While granted immense authority within Estalucia, they were created solely for its upkeep and is unable to leave its confines. During the time when the afterlife was distorted by the Otherworld's influence, their workload was light. However, with the disappearance of the Omnipotent's clone and the collapse of the Otherworld, their duties have surged, leaving them somewhat flustered. Deep down, they secretly dream of one day visiting the oceans of the Sky Realm, but no one understands better than them that such a wish can never be fulfilled.",
-    "images": [
-      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3994000000.png", "label": "default" }
-    ],
-    "links": [
-      "https://gbf.wiki/Rel_Estalucia_(NPC)"
-    ],
-    "cv": "Rika Nagae",
-    "cv-links": [
-      "https://myanimelist.net/people/43303/Rika_Nagae"
     ]
   }
 ]
