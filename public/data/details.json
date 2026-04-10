@@ -59,5 +59,136 @@
     "cv-links": [
       "https://myanimelist.net/people/285/Tsuyoshi_Koyama"
     ]
+  },
+  {
+    "id": 3050001000,
+    "name": "Vyrn",
+    "desc": "This small dragon has been by your side since you were little. No one knows exactly what he is, not even Vyrn himself. He loves apples and hates being called a lizard.",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3050001000_up2.png", "label": "close-up" }
+    ],
+    "links": [
+      "https://gbf.wiki/Vyrn_(NPC)"
+    ],
+    "cv": "Rie Kugimiya",
+    "cv-links": [
+      "https://myanimelist.net/people/8/Rie_Kugimiya"
+    ]
+  },
+  {
+    "id": 3993468000,
+    "name": "Atum",
+    "desc": "",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993454000.png", "label": "default" }
+    ],
+    "links": [
+      "https://gbf.wiki/Atum_(Summer)"
+    ],
+    "cv": "Kengo Takanashi",
+    "cv-links": [
+      "https://myanimelist.net/people/15477/Kengo_Takanashi"
+    ]
+  },
+  {
+    "id": 3993469000,
+    "name": "Bennu",
+    "desc": "",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993469000.png", "label": "default" },
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993455000.png", "label": "casual"}
+    ],
+    "links": [
+      "https://gbf.wiki/Bennu_(Holiday)"
+    ],
+    "cv": "Satoshi Tsuruoka",
+    "cv-links": [
+      "https://myanimelist.net/people/5539/Satoshi_Tsuruoka"
+    ]
+  },
+  {
+    "id": 3993470000,
+    "name": "Tefnut",
+    "desc": "",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993470000.png", "label": "default" },
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993456000.png", "label": "casual"}
+    ],
+    "links": [
+      "https://gbf.wiki/Tefnut_(Summer)"
+    ],
+    "cv": "Yui Kondou",
+    "cv-links": [
+      "https://myanimelist.net/people/24189/Yui_Kondou"
+    ]
+  },
+  {
+    "id": 3993471000,
+    "name": "Ra",
+    "desc": "",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993471000.png", "label": "default" },
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993457000.png", "label": "casual"}
+    ],
+    "links": [],
+    "cv": "",
+    "cv-links": []
+  },
+  {
+    "id": 3993472000,
+    "name": "Horus",
+    "desc": "",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993472000.png", "label": "default" },
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993458000.png", "label": "casual"}
+    ],
+    "links": [
+      "https://gbf.wiki/Horus_(Summer)"
+    ],
+    "cv": "Misa Ishii",
+    "cv-links": [
+      "https://myanimelist.net/people/48534/Misa_Ishii"
+    ]
+  },
+  {
+    "id": 3993473000,
+    "name": "Osiris",
+    "desc": "",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993473000.png", "label": "default" },
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3993459000.png", "label": "casual"}
+    ],
+    "links": [],
+    "cv": "",
+    "cv-links": []
+  },
+  {
+    "id": 3990510000,
+    "name": "Orchis",
+    "title": "Queen of Erste Kingdom",
+    "desc": "The former princess of Erste Kingdom. Orchis is a childhood friend of the Black Knight Apollonia as well as the model for Orchid's new vessel. With the reestablishment of Erste Kingdom, she ascended the throne to rule alongside her advisor, Adam. Although she is the same age as Apollonia, her previous ordeal as a spirit left both her body and mentality in a youthful state.",
+    "images": [],
+    "links": [
+      "https://gbf.wiki/Queen_Orchis,_Erste_Kingdom_(NPC)"
+    ],
+    "cv": "Minori Chihara",
+    "cv-links": [
+      "https://myanimelist.net/people/53/Minori_Chihara"
+    ]
+  },
+  {
+    "id": 3994000000,
+    "name": "Rel Estalucia",
+    "desc": "The Speaker and attendant of the Omnipotent's clone in Estalucia, they are tasked with the realm's management and maintenance. While granted immense authority within Estalucia, they were created solely for its upkeep and is unable to leave its confines. During the time when the afterlife was distorted by the Otherworld's influence, their workload was light. However, with the disappearance of the Omnipotent's clone and the collapse of the Otherworld, their duties have surged, leaving them somewhat flustered. Deep down, they secretly dream of one day visiting the oceans of the Sky Realm, but no one understands better than them that such a wish can never be fulfilled.",
+    "images": [
+      { "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/quest/scene/character/body/3994000000.png", "label": "default" }
+    ],
+    "links": [
+      "https://gbf.wiki/Rel_Estalucia_(NPC)"
+    ],
+    "cv": "Rika Nagae",
+    "cv-links": [
+      "https://myanimelist.net/people/43303/Rika_Nagae"
+    ]
   }
 ]

@@ -977,7 +977,8 @@
     "relations": [
       { "to": 3990618000, "type": "creator" },
       { "to": 3993479000, "type": "creator" },
-      { "to": 3990612000, "type": "superior" }
+      { "to": 3990612000, "type": "superior" },
+      { "to": 3992587000 }
     ]
   },
   {
@@ -1330,6 +1331,7 @@
     "group": "a",
     "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994304000_01.jpg",
     "relations": [
+      { "to": 3991053000, "type": "intention", "title": "Defeat"},
       { "to": 3994303000, "type": "co-worker", "event": "Anniv. 12" },
       { "to": 3991120000, "type": "co-worker", "event": "Anniv. 12" }
     ]
@@ -1354,6 +1356,66 @@
     ]
   },
   {
+    "id": "Diviners",
+    "label": "Diviners",
+    "group": "t",
+    "relations": [
+      { "to": 3993452000, "type": "intention", "title": "Search Target" }
+    ]
+  },
+  {
+    "id": 3993468000,
+    "label": "Atum",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040601000_01.jpg",
+    "relations": [
+      { "to": "Diviners", "type": "belongs" }
+    ]
+  },
+  {
+    "id": 3993473000,
+    "label": "Osiris",
+    "group": "p",
+    "relations": [
+      { "to": "Diviners", "type": "belongs" }
+    ]
+  },
+  {
+    "id": 3993471000,
+    "label": "Ra",
+    "group": "p",
+    "relations": [
+      { "to": "Diviners", "type": "belongs" }
+    ]
+  },
+  {
+    "id": 3993470000,
+    "label": "Tefnut",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040537000_01.jpg",
+    "relations": [
+      { "to": "Diviners", "type": "belongs" }
+    ]
+  },
+  {
+    "id": 3993472000,
+    "label": "Horus",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040518000_01.jpg",
+    "relations": [
+      { "to": "Diviners", "type": "belongs" }
+    ]
+  },
+  {
+    "id": 3993469000,
+    "label": "Bennu",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040627000_01.jpg",
+    "relations": [
+      { "to": "Diviners", "type": "belongs" }
+    ]
+  },
+  {
     "id": 3994307000,
     "label": "Octavia\n[Green Knight]",
     "group": "d",
@@ -1361,6 +1423,196 @@
     "relations": [
       { "to": 3990416000, "type": "ancestor", "event": "Anniv. 12" },
       { "to": 3992850000, "type": "creator", "event": "Anniv. 12" }
+    ]
+  },
+  {
+    "id": 3992142000,
+    "label": "Gamshira",
+    "group": "d",
+    "relations": [
+      { "to": 3040063000, "type": "parent" },
+      { "to": 3992143000, "type": "family" }
+    ]
+  },
+  {
+    "id": 3992143000,
+    "label": "Laruna",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994338000_01.jpg",
+    "relations": [
+      { "to": 3992142000, "type": "family" },
+      { "to": 3040063000, "type": "parent" },
+      { "to": 3994213000, "title": "Mompanions", "dashes": true }
+    ]
+  },
+  {
+    "id": 3994213000,
+    "label": "Maminas",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994213000_01.jpg",
+    "relations": [
+      { "to": 3994215000, "type": "parent" },
+      { "to": 3994217000, "type": "parent" }
+    ]
+  },
+  {
+    "id": 3994215000,
+    "label": "Jherion",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994215000_01.jpg",
+    "relations": [
+      { "to": 3994217000, "type": "family" },
+      { "to": 3993447000, "type": "intention", "title": "Find his Book"}
+    ]
+  },
+  {
+    "id": 3994217000,
+    "label": "Miamint",
+    "group": "d",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3994217000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3992587000,
+    "label": "Cosmos",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040467000_01.jpg",
+    "relations": [
+      { "to": 3040078000, "type": "creator" },
+      { "to": 3991386000, "type": "creator" },
+      { "to": 3992581000, "type": "creator" }
+    ]
+  },
+  {
+    "id": 3040078000,
+    "label": "Zooey",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040078000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3991386000,
+    "label": "Geo",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991386000_01.jpg",
+    "relations": [
+      { "to": 3991393000, "type": "action", "arrows": "to", "dashes": true, "title": "Found a Core" },
+      { "to": 3991394000, "type": "action", "arrows": "to", "dashes": true, "title": "Found a Core" },
+      { "to": 2040281000, "title": "Cooperation" }
+    ]
+  },
+  {
+    "id": 3992581000,
+    "label": "Yuni",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040390000_01.jpg",
+    "relations": [
+      
+    ]
+  },
+  {
+    "id": 3991393000,
+    "label": "Euryale",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991393000_01.jpg",
+    "relations": [
+      { "to": 3991394000, "type": "family" },
+      { "to": 3040123000, "type": "family" }
+    ]
+  },
+  {
+    "id": 3991394000,
+    "label": "Stheno",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3991394000_01.jpg",
+    "relations": [
+      { "to": 3040123000, "type": "family" }
+    ]
+  },
+  {
+    "id": 3040123000,
+    "label": "Medusa",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040123000_01.jpg",
+    "relations": [
+      { "to": 2040013000, "title": "Primal Pals" },
+      { "to": 2040042000, "title": "Primal Pals" },
+      { "to": 2040053000, "title": "Primal Pals" },
+      { "to": 2040021000, "title": "Acquaintance" }
+    ]
+  },
+  {
+    "id": 2040013000,
+    "label": "Baal",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040215000_01.jpg",
+    "relations": [
+      { "to": 2040042000, "title": "Primal Pals" }
+    ]
+  },
+  {
+    "id": 2040042000,
+    "label": "Nezha",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040332000_01.jpg",
+    "relations": [
+      { "to": 2040053000, "title": "Primal Pals" }
+    ]
+  },
+  {
+    "id": 2040053000,
+    "label": "Satyr",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040280000_01.jpg",
+    "relations": [
+      { "to": 2040013000, "title": "Primal Pals" },
+      { "to": 3992586000, "title": "Acquaintance" }
+    ]
+  },
+  {
+    "id": 2040021000,
+    "label": "Athena",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040202000_01.jpg",
+    "relations": [
+      { "to": 3992248000, "title": "Acquaintance" },
+      { "to": 3040592000, "title": "Acquaintance" }
+    ]
+  },
+  {
+    "id": 3992248000,
+    "label": "Enyo",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040365000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 3040592000,
+    "label": "Mars",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040592000_01.jpg",
+    "relations": [
+    ]
+  },
+  {
+    "id": 2040281000,
+    "label": "Freyr",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3040387000_01.jpg",
+    "relations": [
+      { "to": 3992586000, "title": "Friendship" }
+    ]
+  },
+  {
+    "id": 3992586000,
+    "label": "Baldr",
+    "group": "p",
+    "image": "https://prd-game-a-granbluefantasy.akamaized.net/assets_en/img/sp/assets/npc/m/3992570000_01.jpg",
+    "relations": [
     ]
   }
 ]
