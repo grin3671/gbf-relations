@@ -14,13 +14,13 @@ permissions:
 
 jobs:
   validate-json:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Validate JSON files
-        uses: GrantBirki/json-yaml-validate@v3.2.1
+        uses: GrantBirki/json-yaml-validate@v4.0.0
         with:
           # --- Key settings ---
           # Base directory for searching files
